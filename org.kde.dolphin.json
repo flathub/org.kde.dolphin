@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.0/src/baloo-widgets-19.04.0.tar.xz",
-                    "sha256": "ab3d83bb1f2007620273d1a3eb580d821e0655aaf7e3efd2dc81087a24d1c275"
+                    "url": "https://download.kde.org/stable/applications/19.04.1/src/baloo-widgets-19.04.1.tar.xz",
+                    "sha256": "7f7f0b3ba1bbdb3a47cdfa85830295b4b91fa5ac6c87b41d1cf29c354d8a4cf6"
                 }
             ]
         },
@@ -75,8 +75,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.0/src/dolphin-19.04.0.tar.xz",
-                    "sha256": "f3f45b9048c283252067eebfad8c6e1efc6bc64d43fcba78b933850ea4762375"
+                    "url": "https://download.kde.org/stable/applications/19.04.1/src/dolphin-19.04.1.tar.xz",
+                    "sha256": "72cab4d9f49ac05d3e0e8e1ff67cf29c0cacbe2c3a43506eca4c849ea878370a"
                 },
                 {
                     "type": "patch",
@@ -98,8 +98,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.0/src/dolphin-plugins-19.04.0.tar.xz",
-                    "sha256": "c2898e0a64d5a9eab2a4bd661694b75805adfd0a925f1a21f894892264f96469"
+                    "url": "https://download.kde.org/stable/applications/19.04.1/src/dolphin-plugins-19.04.1.tar.xz",
+                    "sha256": "dc528e93d3f7809b8480da5134ead3886205a172a85b25ffdd5720ec67892105"
                 }
             ]
         },
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.0/src/kio-extras-19.04.0.tar.xz",
-                    "sha256": "0f3f2eaf40512cf4a61b09b94ca365d7d05c7b1a75f4e8afd047143a8e962d85"
+                    "url": "https://download.kde.org/stable/applications/19.04.1/src/kio-extras-19.04.1.tar.xz",
+                    "sha256": "ddf389a50142211566124ba902bb9f6b2988b1b94fefed7620a6ec421e3ff0bd"
                 }
             ]
         },
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.0/src/ark-19.04.0.tar.xz",
-                    "sha256": "35e8e516a8554e086264d9a9a4fa66c2b47fa227eb9e512a1d0d24172cd07a84"
+                    "url": "https://download.kde.org/stable/applications/19.04.1/src/ark-19.04.1.tar.xz",
+                    "sha256": "6d348b2b9566ce0b8a1ba1b56d0a8c5d434d4748c479c5a853fdcdecfec753e6"
                 }
             ]
         }
