@@ -5,13 +5,27 @@
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
     "command": "run_dolphin.sh",
-    "finish-args": [ "--share=ipc",
+    "finish-args": [ "--device=dri",
+                     "--share=ipc",
+                     "--share=network",
                      "--socket=x11",
                      "--socket=wayland",
                      "--filesystem=home",
                      "--filesystem=/run/media",
-                     "--talk-name=org.kde.JobViewServer" ],
-
+                     "--talk-name=org.kde.kiod5",
+                     "--talk-name=org.kde.JobViewServer",
+                     "--talk-name=org.kde.kpasswdserver",
+                     "--system-talk-name=org.freedesktop.UDisks2" ],
+    "cleanup": [
+        "/lib/cmake",
+        "/lib/pkgconfig",
+        "/include",
+        "/docs",
+        "/mkspecs",
+        "/share/man",
+        "*.a",
+        "*.la"
+    ],
     "modules": [
         {
             "config-opts": [ "-DENABLE_TESTING=OFF" ],
@@ -20,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.57/kfilemetadata-5.57.0.tar.xz",
-                    "sha256": "49e6c281fdffd4f5fe363c6cefdb6c3022ef57c935d7d6b135607cdde9b2d116"
+                    "url": "https://download.kde.org/stable/frameworks/5.59/kfilemetadata-5.59.0.tar.xz",
+                    "sha256": "7aeacfc538375dae4c8b3ab6411216a48a6971f012f1ab1b9d1e0f835429d6c9"
                 }
             ]
         },
@@ -45,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.57/baloo-5.57.0.tar.xz",
-                    "sha256": "32ab4ed2d295fe734a4a475403dea72e2feef27f662ae64c841c410eb7bb3dd3"
+                    "url": "https://download.kde.org/stable/frameworks/5.59/baloo-5.59.0.tar.xz",
+                    "sha256": "306425209bc6b653450befa2eebc7ec60629e096e88d57af8ee6ca9e0c6430e1"
                 }
             ]
         },
@@ -57,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.2/src/baloo-widgets-19.04.2.tar.xz",
-                    "sha256": "7cc52e9f1e4c4104802a8276ddac7bc0d2563086a20a48c47d6fde619d2509ab"
+                    "url": "https://download.kde.org/stable/applications/19.04.3/src/baloo-widgets-19.04.3.tar.xz",
+                    "sha256": "ee14c03ac8254a0d0680bce856178a2110f0339b9dd5021927c59ff2df90606f"
                 }
             ]
         },
@@ -75,8 +89,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.2/src/dolphin-19.04.2.tar.xz",
-                    "sha256": "1aacf622e1830ac458e3ab706b1a895eec467b9e0401c9bc88f1eb381205df79"
+                    "url": "https://download.kde.org/stable/applications/19.04.3/src/dolphin-19.04.3.tar.xz",
+                    "sha256": "67a2b283049591fa0f00304b4da6532e9d59d9dc9067916e0ffe8aa19d93f579"
                 },
                 {
                     "type": "patch",
@@ -98,8 +112,44 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.2/src/dolphin-plugins-19.04.2.tar.xz",
-                    "sha256": "442ed0b6f08dd493885155e090847a069915518fbbbae5dd4923cb2ca3860901"
+                    "url": "https://download.kde.org/stable/applications/19.04.3/src/dolphin-plugins-19.04.3.tar.xz",
+                    "sha256": "a68e15b71fa35acb190952ef49b2611876317e3bb0420d65d5365bc03feb9542"
+                }
+            ]
+        },
+        {
+            "name": "libusb1",
+            "config-opts": [ "--enable-udev=no" ],
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/libusb/libusb/releases/download/v1.0.22/libusb-1.0.22.tar.bz2",
+                    "sha256": "75aeb9d59a4fdb800d329a545c2e6799f732362193b465ea198f2aa275518157"
+                }
+            ]
+        },
+        {
+            "name": "libmtp",
+            "config-opts": [ "--with-udev=/app/lib/udev" ],
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.16/libmtp-1.1.16.tar.gz",
+                    "sha256": "5b68f9dd1ed38de558de687f40e255a39e4d5e32ef3de601f0ac19dd5682bba0"
+                }
+            ]
+        },
+        {
+            "name": "libssh",
+            "buildsystem": "cmake-ninja",
+            "builddir": true,
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.libssh.org/files/0.9/libssh-0.9.0.tar.xz",
+                    "sha256": "25303c2995e663cd169fdd902bae88106f48242d7e96311d74f812023482c7a5"
                 }
             ]
         },
@@ -109,8 +159,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.2/src/kio-extras-19.04.2.tar.xz",
-                    "sha256": "321e27bd27ed26980e5e9b4b638f43045cfdaa8488b1642e2378178af7327e81"
+                    "url": "https://download.kde.org/stable/applications/19.04.3/src/kio-extras-19.04.3.tar.xz",
+                    "sha256": "b65cb37a5965782a9eaae80840fdd7e06505aece33cc6774510c65e1fea3f55b"
                 }
             ]
         },
@@ -121,8 +171,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.04.2/src/ark-19.04.2.tar.xz",
-                    "sha256": "b0c4e4150aa6595e1a2c6fdd2a38046fa03cf594875fb1e8af284e84c5923211"
+                    "url": "https://download.kde.org/stable/applications/19.04.3/src/ark-19.04.3.tar.xz",
+                    "sha256": "a06cc2937aa4ed41bab0a38344164f367b993a80bcd74011e4ab72643bfee8ee"
                 }
             ]
         }
