@@ -1,7 +1,7 @@
 {
     "id": "org.kde.dolphin",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.12",
+    "runtime-version": "5.13",
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
     "command": "run_dolphin.sh",
@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.61/kfilemetadata-5.61.0.tar.xz",
-                    "sha256": "15f20af053c71c1e5ba6c6ade90b7cce27645b27ee30f1e6e73038e81a2c958e"
+                    "url": "https://download.kde.org/stable/frameworks/5.62/kfilemetadata-5.62.0.tar.xz",
+                    "sha256": "2d8488500b19a7d8f90712775e0353e16957857a89162d6c7b947dd5536245b0"
                 }
             ]
         },
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.61/baloo-5.61.0.tar.xz",
-                    "sha256": "dd559e06237843f51d68eb5001b835037d4b2f6d62b7dc4d040961f9863632f1"
+                    "url": "https://download.kde.org/stable/frameworks/5.62/baloo-5.62.0.tar.xz",
+                    "sha256": "454e6808a5fe523785e5e67b7c0453fd1b6c42035aaf8084c39ad30bcbbc8d1a"
                 }
             ]
         },
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.1/src/baloo-widgets-19.08.1.tar.xz",
-                    "sha256": "83429a70de735edc4714dc1b6f1a5a8c7d3d68a93165e98d2cadeecafa82af7b"
+                    "url": "https://download.kde.org/stable/applications/19.08.2/src/baloo-widgets-19.08.2.tar.xz",
+                    "sha256": "529f3b587098eb9b7d1aaa8b311f98c58d16ed88384fa0900f9fb9f8e242c070"
                 }
             ]
         },
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.1/src/dolphin-19.08.1.tar.xz",
-                    "sha256": "a612dac0cf50301af46ad5fa29aad630bb33a8a4bd416a4d6023b65fb00f25cc"
+                    "url": "https://download.kde.org/stable/applications/19.08.2/src/dolphin-19.08.2.tar.xz",
+                    "sha256": "0c56515737fc0f96020b3c157a93023095d1a1e23637e7670e068c6c286bbc3b"
                 },
                 {
                     "type": "patch",
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.1/src/dolphin-plugins-19.08.1.tar.xz",
-                    "sha256": "ce2452d9f878dfcff45739ff9eb4a3bde69c449c36182dee6b768f362e75ae2e"
+                    "url": "https://download.kde.org/stable/applications/19.08.2/src/dolphin-plugins-19.08.2.tar.xz",
+                    "sha256": "da2114bd8ed0a70fba3c3cba82a5543cce2f91af7e1dc12bc7457eeffc03099d"
                 }
             ]
         },
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.1/src/kio-extras-19.08.1.tar.xz",
-                    "sha256": "de0ba7f3ce73db34b878cb88e36711d6b31aad57a5a735744330f92920666c52"
+                    "url": "https://download.kde.org/stable/applications/19.08.2/src/kio-extras-19.08.2.tar.xz",
+                    "sha256": "a0b8f08ab8f9d36cfdc950470f75726e90e9fba159bc2035931cfa6efbfe4394"
                 }
             ]
         },
@@ -168,8 +168,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.1/src/ark-19.08.1.tar.xz",
-                    "sha256": "b5638bc4559d775d0a0c2aee022cadc021543bf92e8be6b9b803c50e7e7f1835"
+                    "url": "https://download.kde.org/stable/applications/19.08.2/src/ark-19.08.2.tar.xz",
+                    "sha256": "63fcec0a32d806cfc82fb1c136b5e037bfe75459b148ac08c00be7e45ac70c50"
                 }
             ]
         }
