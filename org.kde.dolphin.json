@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.62/kfilemetadata-5.62.0.tar.xz",
-                    "sha256": "2d8488500b19a7d8f90712775e0353e16957857a89162d6c7b947dd5536245b0"
+                    "url": "https://download.kde.org/stable/frameworks/5.65/kfilemetadata-5.65.0.tar.xz",
+                    "sha256": "9df372bcc1f910a332b4f5f8b34f5cfeb453c002bec93cdb4004e36157883a75"
                 }
             ]
         },
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.62/baloo-5.62.0.tar.xz",
-                    "sha256": "454e6808a5fe523785e5e67b7c0453fd1b6c42035aaf8084c39ad30bcbbc8d1a"
+                    "url": "https://download.kde.org/stable/frameworks/5.65/baloo-5.65.0.tar.xz",
+                    "sha256": "c24c53838d57b40a1f099cb40240cad86fb9ebbf09fd0f811d9ce14a9cf5f3bf"
                 }
             ]
         },
@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.2/src/baloo-widgets-19.08.2.tar.xz",
-                    "sha256": "529f3b587098eb9b7d1aaa8b311f98c58d16ed88384fa0900f9fb9f8e242c070"
+                    "url": "https://download.kde.org/stable/release-service/19.12.0/src/baloo-widgets-19.12.0.tar.xz",
+                    "sha256": "c16c248c20b2f4fe344b90283070a316eaef7e03b3b4e5f3b9a102b89977672e"
                 }
             ]
         },
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.2/src/dolphin-19.08.2.tar.xz",
-                    "sha256": "0c56515737fc0f96020b3c157a93023095d1a1e23637e7670e068c6c286bbc3b"
+                    "url": "https://download.kde.org/stable/release-service/19.12.0/src/dolphin-19.12.0.tar.xz",
+                    "sha256": "5bc092d2910583f1303d7800b836713e4547ac95cac06feaed67e4c038ff42e7"
                 },
                 {
                     "type": "patch",
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.2/src/dolphin-plugins-19.08.2.tar.xz",
-                    "sha256": "da2114bd8ed0a70fba3c3cba82a5543cce2f91af7e1dc12bc7457eeffc03099d"
+                    "url": "https://download.kde.org/stable/release-service/19.12.0/src/dolphin-plugins-19.12.0.tar.xz",
+                    "sha256": "502421ebd7b41c9fed32266da3b5c22df37ab721ee5aee5b0018fe3498f01fa8"
                 }
             ]
         },
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.2/src/kio-extras-19.08.2.tar.xz",
-                    "sha256": "a0b8f08ab8f9d36cfdc950470f75726e90e9fba159bc2035931cfa6efbfe4394"
+                    "url": "https://download.kde.org/stable/release-service/19.12.0/src/kio-extras-19.12.0.tar.xz",
+                    "sha256": "7943c14a5a095a8d8d3ee868be085ddc59d6a0ec172637c3551e148fadc9ac6c"
                 }
             ]
         },
@@ -168,8 +168,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/applications/19.08.2/src/ark-19.08.2.tar.xz",
-                    "sha256": "63fcec0a32d806cfc82fb1c136b5e037bfe75459b148ac08c00be7e45ac70c50"
+                    "url": "https://download.kde.org/stable/release-service/19.12.0/src/ark-19.12.0.tar.xz",
+                    "sha256": "0f0c8a306f392573bd912a21c298734af4b73a7faec0b5fe7548d5a3ae1b4b54"
                 }
             ]
         }
