@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.62/kfilemetadata-5.62.0.tar.xz",
-                    "sha256": "2d8488500b19a7d8f90712775e0353e16957857a89162d6c7b947dd5536245b0"
+                    "url": "https://download.kde.org/stable/frameworks/5.64/kfilemetadata-5.64.0.tar.xz",
+                    "sha256": "4b581e4d659defe4db595a984ed4c037bc80e0bf7b298ec79e6aa5061fa56e23"
                 }
             ]
         },
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.62/baloo-5.62.0.tar.xz",
-                    "sha256": "454e6808a5fe523785e5e67b7c0453fd1b6c42035aaf8084c39ad30bcbbc8d1a"
+                    "url": "https://download.kde.org/stable/frameworks/5.64/baloo-5.64.0.tar.xz",
+                    "sha256": "adaaef1aeec07ccc210210a2e67f4d12c0275226bb05d0220da0281f1a3984c2"
                 }
             ]
         },
