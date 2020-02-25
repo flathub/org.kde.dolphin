@@ -1,7 +1,7 @@
 {
     "id": "org.kde.dolphin",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.13",
+    "runtime-version": "5.14",
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
     "command": "run_dolphin.sh",
@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.65/kfilemetadata-5.65.0.tar.xz",
-                    "sha256": "9df372bcc1f910a332b4f5f8b34f5cfeb453c002bec93cdb4004e36157883a75"
+                    "url": "https://download.kde.org/stable/frameworks/5.66/kfilemetadata-5.66.0.tar.xz",
+                    "sha256": "d78c2128887591229e6c61c60e77af8647e407d570b07892f5f06ab682f807b9"
                 }
             ]
         },
@@ -59,8 +59,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.65/baloo-5.65.0.tar.xz",
-                    "sha256": "c24c53838d57b40a1f099cb40240cad86fb9ebbf09fd0f811d9ce14a9cf5f3bf"
+                    "url": "https://download.kde.org/stable/frameworks/5.66/baloo-5.66.0.tar.xz",
+                    "sha256": "9495869eee72f587efadc8a848c3f76b93a1dcb1914c8e818d7084451107a1f8"
                 }
             ]
         },
