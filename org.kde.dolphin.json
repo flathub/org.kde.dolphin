@@ -71,8 +71,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/baloo-widgets-19.12.2.tar.xz",
-                    "sha256": "ccc2df948f1d6245593ab1c6082b347e8da45bc502df0557caf0e17040c0bbc8"
+                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/baloo-widgets-19.12.3.tar.xz",
+                    "sha256": "236c0bb0bcb345f4ce5f07d591bded6221383bc7b190b42b96999893390cd8a5"
                 }
             ]
         },
@@ -86,8 +86,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/dolphin-19.12.2.tar.xz",
-                    "sha256": "d4ef94be73b6da0d8031cd50cae07e242efed873212a99e1cf5111330fff3f7d"
+                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/dolphin-19.12.3.tar.xz",
+                    "sha256": "ba16f4d5be5ccc3c135a913f2e3c7dd3b7a492cfc9ec9ae518f714fcd7c2ab47"
                 },
                 {
                     "type": "patch",
@@ -109,8 +109,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/dolphin-plugins-19.12.2.tar.xz",
-                    "sha256": "a8ae0114554f906daad4da76d11da24706faa534894194087b085eb30ffbe480"
+                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/dolphin-plugins-19.12.3.tar.xz",
+                    "sha256": "7dbd5c0fe4281c46df789f86f468c4ea32949285055cae4652bab3de59acdfd3"
                 }
             ]
         },
@@ -133,8 +133,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.16/libmtp-1.1.16.tar.gz",
-                    "sha256": "5b68f9dd1ed38de558de687f40e255a39e4d5e32ef3de601f0ac19dd5682bba0"
+                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.17/libmtp-1.1.17.tar.gz",
+                    "sha256": "f8a34cf52d9f9b9cb8c7f26b12da347d4af7eb904c13189602e4c6b62d1a79dc"
                 }
             ]
         },
@@ -156,8 +156,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/kio-extras-19.12.2.tar.xz",
-                    "sha256": "de6532d1298b1b5c32295292b5b7bf418bf937887d174b80cef3f3aadde15882"
+                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/kio-extras-19.12.3.tar.xz",
+                    "sha256": "413cb21479fedf1421a6e2585b4df813c3a3fadaa77c248a9f810021f58cea4b"
                 }
             ]
         },
@@ -168,8 +168,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.2/src/ark-19.12.2.tar.xz",
-                    "sha256": "fc70fa952b872330acd510c84ab2651258a74f370efd1f0bda6df8c4b9e6aaf1"
+                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/ark-19.12.3.tar.xz",
+                    "sha256": "78594029729c197fc90321850696f1bd189b40d8d7fbc9faf51ad6b2ab744a07"
                 }
             ]
         }
