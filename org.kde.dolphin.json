@@ -77,6 +77,21 @@
             ]
         },
         {
+            "name": "libportal",
+            "buildsystem": "meson",
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/grulja/libportal.git",
+                    "branch": "qt-wrapper"
+                },
+                {
+                    "type": "patch",
+                    "path": "libportal-openuri-writable.patch"
+                }
+            ]
+        },
+        {
             "name": "dolphin",
             "buildsystem": "cmake-ninja",
             "post-install": [
@@ -96,6 +111,10 @@
                 {
                     "type": "patch",
                     "path": "dolphin-icon.patch"
+                },
+                {
+                    "type": "patch",
+                    "path": "dolphin-libportal.patch"
                 },
                 {
                     "type": "file",
