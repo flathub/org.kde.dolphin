@@ -1,0 +1,11 @@
+diff -ur baloo-5.69.0/src/file/extractor/CMakeLists.txt baloo-5.69.0_new/src/file/extractor/CMakeLists.txt
+--- baloo-5.69.0/src/file/extractor/CMakeLists.txt	2020-04-05 00:54:00.000000000 +0200
++++ baloo-5.69.0_new/src/file/extractor/CMakeLists.txt	2020-05-10 13:09:51.277142441 +0200
+@@ -29,6 +29,7 @@
+   KF5::I18n
+   KF5::ConfigCore
+   KF5::Solid
++  KF5::Baloo
+   KF5::BalooEngine
+   KF5::Crash
+   KF5::IdleTime
