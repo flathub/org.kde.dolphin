@@ -16,6 +16,7 @@
                      "--talk-name=org.kde.JobViewServer",
                      "--talk-name=org.kde.kpasswdserver",
                      "--system-talk-name=org.freedesktop.UDisks2" ],
+    "rename-icon": "system-file-manager",
     "cleanup": [
         "/lib/cmake",
         "/lib/pkgconfig",
@@ -72,7 +73,7 @@
             "name": "dolphin",
             "buildsystem": "cmake-ninja",
             "post-install": [
-                "for icon_size in 16 22 32 48 64 128; do install -d /app/share/icons/hicolor/${icon_size}x${icon_size}/apps && install -m644 src/icons/${icon_size}-system-file-manager.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/org.kde.dolphin.png; done",
+                "for icon_size in 16 22 32 48 64 128; do install -Dm644 src/icons/${icon_size}-system-file-manager.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/system-file-manager.png; done",
                 "install run_dolphin.sh /app/bin/run_dolphin.sh"
             ],
             "sources": [
@@ -88,10 +89,6 @@
                         "sed -e 's/dolphin.FileManager1/freedesktop.FileManager1/g' -i CMakeLists.txt",
                         "sed -e 's/dolphinDBusService/dolphinDBusService(KDBusService::NoExitOnFailure)/' -i src/main.cpp"
                     ]
-                },
-                {
-                    "type": "patch",
-                    "path": "dolphin-icon.patch"
                 },
                 {
                     "type": "file",
