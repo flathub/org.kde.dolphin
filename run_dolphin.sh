@@ -9,4 +9,4 @@ if [ ! -f "$XDG_CONFIG_HOME/first_start" ]; then
     kbuildsycoca5
 fi
 
-exec dolphin "$@"
+exec dolphin-bin "$@"

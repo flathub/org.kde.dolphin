@@ -4,7 +4,7 @@
     "runtime-version": "5.14",
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
-    "command": "run_dolphin.sh",
+    "command": "dolphin",
     "finish-args": [ "--device=dri",
                      "--share=ipc",
                      "--share=network",
@@ -74,7 +74,8 @@
             "buildsystem": "cmake-ninja",
             "post-install": [
                 "for icon_size in 16 22 32 48 64 128; do install -Dm644 src/icons/${icon_size}-system-file-manager.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/system-file-manager.png; done",
-                "install run_dolphin.sh /app/bin/run_dolphin.sh"
+                "mv /app/bin/{dolphin,dolphin-bin}",
+                "install run_dolphin.sh /app/bin/dolphin"
             ],
             "sources": [
                 {
