@@ -45,15 +45,12 @@
             "config-opts": ["-DENABLE_TESTING=OFF" , "-DLMDB_DIR=/app"],
             "name": "baloo",
             "buildsystem": "cmake-ninja",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/frameworks/5.69/baloo-5.69.0.tar.xz",
                     "sha256": "4a996feade929cb6913382e5993f20972a5dc066fbfead13a02f9798ea80c85b"
-                },
-                {
-                    "type": "patch",
-                    "path": "baloo-extractor-link.patch"
                 }
             ]
         },
