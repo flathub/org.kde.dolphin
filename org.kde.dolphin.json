@@ -28,18 +28,6 @@
     ],
     "modules": [
         {
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
-            "name": "kfilemetadata",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.66/kfilemetadata-5.66.0.tar.xz",
-                    "sha256": "d78c2128887591229e6c61c60e77af8647e407d570b07892f5f06ab682f807b9"
-                }
-            ]
-        },
-        {
             "name": "lmdb",
             "sources": [
                 {
