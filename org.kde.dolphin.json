@@ -4,7 +4,7 @@
     "runtime-version": "5.14",
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
-    "command": "run_dolphin.sh",
+    "command": "dolphin",
     "finish-args": [ "--device=dri",
                      "--share=ipc",
                      "--share=network",
@@ -16,6 +16,7 @@
                      "--talk-name=org.kde.JobViewServer",
                      "--talk-name=org.kde.kpasswdserver",
                      "--system-talk-name=org.freedesktop.UDisks2" ],
+    "rename-icon": "system-file-manager",
     "cleanup": [
         "/lib/cmake",
         "/lib/pkgconfig",
@@ -27,18 +28,6 @@
         "*.la"
     ],
     "modules": [
-        {
-            "config-opts": [ "-DENABLE_TESTING=OFF" ],
-            "name": "kfilemetadata",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.66/kfilemetadata-5.66.0.tar.xz",
-                    "sha256": "d78c2128887591229e6c61c60e77af8647e407d570b07892f5f06ab682f807b9"
-                }
-            ]
-        },
         {
             "name": "lmdb",
             "sources": [
@@ -56,11 +45,12 @@
             "config-opts": ["-DENABLE_TESTING=OFF" , "-DLMDB_DIR=/app"],
             "name": "baloo",
             "buildsystem": "cmake-ninja",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.66/baloo-5.66.0.tar.xz",
-                    "sha256": "9495869eee72f587efadc8a848c3f76b93a1dcb1914c8e818d7084451107a1f8"
+                    "url": "https://download.kde.org/stable/frameworks/5.69/baloo-5.69.0.tar.xz",
+                    "sha256": "4a996feade929cb6913382e5993f20972a5dc066fbfead13a02f9798ea80c85b"
                 }
             ]
         },
@@ -71,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/baloo-widgets-19.12.3.tar.xz",
-                    "sha256": "236c0bb0bcb345f4ce5f07d591bded6221383bc7b190b42b96999893390cd8a5"
+                    "url": "https://download.kde.org/stable/release-service/20.04.0/src/baloo-widgets-20.04.0.tar.xz",
+                    "sha256": "8ce3bdafd8b3598799d5303af483295625db7a7b66b08cff2d6c3d35df759853"
                 }
             ]
         },
@@ -80,22 +70,23 @@
             "name": "dolphin",
             "buildsystem": "cmake-ninja",
             "post-install": [
-                "for icon_size in 16 22 32 48 64 128; do install -d /app/share/icons/hicolor/${icon_size}x${icon_size}/apps && install -m644 src/icons/${icon_size}-system-file-manager.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/org.kde.dolphin.png; done",
-                "install run_dolphin.sh /app/bin/run_dolphin.sh"
+                "for icon_size in 16 22 32 48 64 128; do install -Dm644 src/icons/${icon_size}-system-file-manager.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/system-file-manager.png; done",
+                "mv /app/bin/{dolphin,dolphin-bin}",
+                "install run_dolphin.sh /app/bin/dolphin"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/dolphin-19.12.3.tar.xz",
-                    "sha256": "ba16f4d5be5ccc3c135a913f2e3c7dd3b7a492cfc9ec9ae518f714fcd7c2ab47"
+                    "url": "https://download.kde.org/stable/release-service/20.04.0/src/dolphin-20.04.0.tar.xz",
+                    "sha256": "3c5bb9dc0b5ba55c54eb1c13b123b34f3437c22424142cb7d1957b6ebe4ad5ba"
                 },
                 {
-                    "type": "patch",
-                    "path": "dolphinpatch.patch"
-                },
-                {
-                    "type": "patch",
-                    "path": "dolphin-icon.patch"
+                    "type": "shell",
+                    "commands": [
+                        "mv org.kde.{dolphin,freedesktop}.FileManager1.service.in",
+                        "sed -e 's/dolphin.FileManager1/freedesktop.FileManager1/g' -i CMakeLists.txt",
+                        "sed -e 's/dolphinDBusService/dolphinDBusService(KDBusService::NoExitOnFailure)/' -i src/main.cpp"
+                    ]
                 },
                 {
                     "type": "file",
@@ -109,8 +100,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/dolphin-plugins-19.12.3.tar.xz",
-                    "sha256": "7dbd5c0fe4281c46df789f86f468c4ea32949285055cae4652bab3de59acdfd3"
+                    "url": "https://download.kde.org/stable/release-service/20.04.0/src/dolphin-plugins-20.04.0.tar.xz",
+                    "sha256": "e38dc682d6b01f9e2403b5d98064b5c1b4f9c3bab9690084f6df252d5d1a127a"
                 }
             ]
         },
@@ -145,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libssh.org/files/0.9/libssh-0.9.3.tar.xz",
-                    "sha256": "2c8b5f894dced58b3d629f16f3afa6562c20b4bdc894639163cf657833688f0c"
+                    "url": "https://www.libssh.org/files/0.9/libssh-0.9.4.tar.xz",
+                    "sha256": "150897a569852ac05aac831dc417a7ba8e610c86ca2e0154a99c6ade2486226b"
                 }
             ]
         },
@@ -156,8 +147,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/kio-extras-19.12.3.tar.xz",
-                    "sha256": "413cb21479fedf1421a6e2585b4df813c3a3fadaa77c248a9f810021f58cea4b"
+                    "url": "https://download.kde.org/stable/release-service/20.04.0/src/kio-extras-20.04.0.tar.xz",
+                    "sha256": "a70f6079a8d2acb8c64bf0d08f7f7e5685f2e9c4e49548c138609437fdc6cd4d"
                 }
             ]
         },
@@ -168,8 +159,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/19.12.3/src/ark-19.12.3.tar.xz",
-                    "sha256": "78594029729c197fc90321850696f1bd189b40d8d7fbc9faf51ad6b2ab744a07"
+                    "url": "https://download.kde.org/stable/release-service/20.04.0/src/ark-20.04.0.tar.xz",
+                    "sha256": "6acda4f29ff463216748f27a791454e1ed2e45851b8e95ada0f56434850917d7"
                 }
             ]
         }
