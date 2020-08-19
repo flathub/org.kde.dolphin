@@ -33,8 +33,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/LMDB/lmdb/archive/LMDB_0.9.24.tar.gz",
-                    "sha256": "44602436c52c29d4f301f55f6fd8115f945469b868348e3cddaf91ab2473ea26"
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.26/openldap-LMDB_0.9.26.tar.bz2",
+                    "sha256": "cda7a06f615dbd7d35987e83df689190d3e9f263190f2f1e36b70357786351f7"
                 }
             ],
             "no-autogen": true,
@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.69/baloo-5.69.0.tar.xz",
-                    "sha256": "4a996feade929cb6913382e5993f20972a5dc066fbfead13a02f9798ea80c85b"
+                    "url": "https://download.kde.org/stable/frameworks/5.73/baloo-5.73.0.tar.xz",
+                    "sha256": "887077ae3e090d673d2ffe7eb869a0ab6f5d14e9dae2dccd619e4689699a2dfe"
                 }
             ]
         },
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.04.3/src/baloo-widgets-20.04.3.tar.xz",
-                    "sha256": "29394f9d47407074a5ec0f85ceade5dcc8c03f0d9a83c1e339310f19f7711ae3"
+                    "url": "https://download.kde.org/stable/release-service/20.08.0/src/baloo-widgets-20.08.0.tar.xz",
+                    "sha256": "37800c3cde7e2a9cfbab2e11f21dd1ae76b2a31b687802bc45027966a8734985"
                 }
             ]
         },
@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.04.3/src/dolphin-20.04.3.tar.xz",
-                    "sha256": "5e493e898e02005780b59474f506904742625b50e4669c113906d4f30daa863e"
+                    "url": "https://download.kde.org/stable/release-service/20.08.0/src/dolphin-20.08.0.tar.xz",
+                    "sha256": "fe5a68d9afd0771ba9ffc2d5d79e7bc43da85fd3ee3c2493a9a2d5c359c3cd6f"
                 },
                 {
                     "type": "shell",
@@ -100,8 +100,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.04.3/src/dolphin-plugins-20.04.3.tar.xz",
-                    "sha256": "f0dad66e7302711e136b0253fb73dbf16bc9facdbb4ad617207fb818fc84130a"
+                    "url": "https://download.kde.org/stable/release-service/20.08.0/src/dolphin-plugins-20.08.0.tar.xz",
+                    "sha256": "a8a0c35f75eb8e63ee90f44ce930babceff86676b8bba213c82b7ffb29e526bb"
                 }
             ]
         },
@@ -136,8 +136,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.04.3/src/kio-extras-20.04.3.tar.xz",
-                    "sha256": "ff0edabe83ee4958ce7559e935f6b7ae3f76aee43ee5774543368ca334b21090"
+                    "url": "https://download.kde.org/stable/release-service/20.08.0/src/kio-extras-20.08.0.tar.xz",
+                    "sha256": "6bfbb92dd56755ec0b2dee0cd889d6081ae00df339c05b4cb7a173a463275e2d"
                 }
             ]
         },
@@ -148,8 +148,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/20.04.3/src/ark-20.04.3.tar.xz",
-                    "sha256": "e7251b0b6f12291ffbaa328bf7f8e101ebeef6fd110dabbcf76d8ad7cfd305bc"
+                    "url": "https://download.kde.org/stable/release-service/20.08.0/src/ark-20.08.0.tar.xz",
+                    "sha256": "7627ffa17466d31dfdedabaa07b491ce14b46041d04f8b20316a0fa731fab098"
                 }
             ]
         }
