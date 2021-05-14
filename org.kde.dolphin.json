@@ -83,8 +83,7 @@
                 {
                     "type": "shell",
                     "commands": [
-                        "mv org.kde.{dolphin,freedesktop}.FileManager1.service.in",
-                        "sed -e 's/dolphin.FileManager1/freedesktop.FileManager1/g' -i CMakeLists.txt",
+                        "sed -e 's/org.kde.dolphin.FileManager1/org.freedesktop.FileManager1/g' -i CMakeLists.txt",
                         "sed -e 's/dolphinDBusService/dolphinDBusService(KDBusService::NoExitOnFailure)/' -i src/main.cpp"
                     ]
                 },
