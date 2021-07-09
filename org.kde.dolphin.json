@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.2/src/baloo-widgets-21.04.2.tar.xz",
-                    "sha256": "95755473c7460dcf07ef7072ad7cbacfe81b214bcc419c7e33d72b5e396b3384"
+                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/baloo-widgets-21.04.3.tar.xz",
+                    "sha256": "b4be933e232c9461bed4fe10c3facbaff41b50a02523e8c70218f809d722f0cc"
                 }
             ]
         },
@@ -77,8 +77,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.2/src/dolphin-21.04.2.tar.xz",
-                    "sha256": "4fb3d6c15725fc86f78d6f6fb305f32d94ba95bf6d02480f3c06feaeb6e5c553"
+                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/dolphin-21.04.3.tar.xz",
+                    "sha256": "e3a1560c216efaa80c3ec99138c4657e9602e17aea250a418b18c2fc85295264"
                 },
                 {
                     "type": "shell",
@@ -99,8 +99,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.2/src/dolphin-plugins-21.04.2.tar.xz",
-                    "sha256": "9654ad7175fcaa93dbf0003f5e63c948ac53982be9f7f54482a8774c53abc4b1"
+                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/dolphin-plugins-21.04.3.tar.xz",
+                    "sha256": "9239c300cb7b27bb7810cedce11132bf9b0e4e0bcc1c1aba94b9cb8092d51d44"
                 }
             ]
         },
@@ -135,8 +135,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.2/src/kio-extras-21.04.2.tar.xz",
-                    "sha256": "25af60cb762969d3c703d8ad73b169eeef40e1531992e7e5f148e2fefe4fd395"
+                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/kio-extras-21.04.3.tar.xz",
+                    "sha256": "4af9f8a10e0c16006d97cf63439f91c05a04533ec6ee2ec0223dbfcc1d39d62d"
                 }
             ]
         },
@@ -147,8 +147,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.04.2/src/ark-21.04.2.tar.xz",
-                    "sha256": "09e0294c36a881585183bf165020ef832bfbbd181547ea26eb78268aab46a768"
+                    "url": "https://download.kde.org/stable/release-service/21.04.3/src/ark-21.04.3.tar.xz",
+                    "sha256": "6cfd49512080c84982574e36f85daeff1ae1287b7bae74cff46e4503d4cc70af"
                 }
             ]
         }
