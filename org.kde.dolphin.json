@@ -151,6 +151,17 @@
                     "sha256": "671858504c628991bf579b1a20edd822f6bb235b4fced618cf3906a919da3df3"
                 }
             ]
+        },
+        {
+            "name": "konsole",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/21.08.3/src/konsole-21.08.3.tar.xz",
+                    "sha256": "21f57b47cc89de69cc4184ff9dfac0fd3ced0eac42771ae7a519225dd21300f1"
+                }
+            ]
         }
     ]
 }
