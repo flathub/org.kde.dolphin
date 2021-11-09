@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.82/baloo-5.82.0.tar.xz",
-                    "sha256": "d864f0c073209065bafe24995c70984cb92ca70f37ca647fb052627c7a3685fe"
+                    "url": "https://download.kde.org/stable/frameworks/5.87/baloo-5.87.0.tar.xz",
+                    "sha256": "8b6b55a300acb33d51ebda930c53fea2c393032d897d4c084d016b3a8d85a540"
                 }
             ]
         },
