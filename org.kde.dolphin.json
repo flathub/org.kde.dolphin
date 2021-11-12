@@ -340,6 +340,23 @@
             ]
         },
         {
+            "name": "kde-cli-tools",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/plasma/5.27.6/kde-cli-tools-5.27.6.tar.xz",
+                    "sha256": "b5e2b1c3bf82c112c8488aea73dca11a49963ea66e66db8f358f8e0394ba0faa",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8761,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma/$version/kde-cli-tools-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "ark",
             "cleanup": [
                 "/share/icons",
