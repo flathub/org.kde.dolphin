@@ -34,8 +34,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.26/openldap-LMDB_0.9.26.tar.bz2",
-                    "sha256": "cda7a06f615dbd7d35987e83df689190d3e9f263190f2f1e36b70357786351f7"
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.29/openldap-LMDB_0.9.29.tar.bz2",
+                    "sha256": "182e69af99788b445585b8075bbca89ae8101069fbeee25b2756fb9590e833f8"
                 }
             ],
             "no-autogen": true,
@@ -50,8 +50,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.87/baloo-5.87.0.tar.xz",
-                    "sha256": "8b6b55a300acb33d51ebda930c53fea2c393032d897d4c084d016b3a8d85a540"
+                    "url": "https://download.kde.org/stable/frameworks/5.88/baloo-5.88.0.tar.xz",
+                    "sha256": "09018da3a01c21e9a8369841fa033737e1b93b56f2b2837663e657ff076abc3d"
                 }
             ]
         },
@@ -112,8 +112,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.17/libmtp-1.1.17.tar.gz",
-                    "sha256": "f8a34cf52d9f9b9cb8c7f26b12da347d4af7eb904c13189602e4c6b62d1a79dc"
+                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.19/libmtp-1.1.19.tar.gz",
+                    "sha256": "deb4af6f63f5e71215cfa7fb961795262920b4ec6cb4b627f55b30b18aa33228"
                 }
             ]
         },
@@ -124,8 +124,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libssh.org/files/0.9/libssh-0.9.5.tar.xz",
-                    "sha256": "acffef2da98e761fc1fd9c4fddde0f3af60ab44c4f5af05cd1b2d60a3fa08718"
+                    "url": "https://www.libssh.org/files/0.9/libssh-0.9.6.tar.xz",
+                    "sha256": "86bcf885bd9b80466fe0e05453c58b877df61afa8ba947a58c356d7f0fab829b"
                 }
             ]
         },
