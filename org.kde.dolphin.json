@@ -130,6 +130,66 @@
             ]
         },
         {
+            "name": "perl-modules",
+            "buildsystem": "simple",
+            "build-commands": [
+                "echo 'this is a workaround for a flatpak+perl limitation'",
+                "tar xhf Parse-Yapp-1.21.tar.gz",
+                "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
+                "ln -s /app/lib/perl5/site_perl/5.34.0/$(basename `ls -d /usr/lib/perl5/5.34.0/*-linux`) /app/lib/perl5/site_perl/5.34.0/arch"
+            ],
+            "post-install": [
+                "chmod -R u+w /app/lib/perl5/site_perl"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-1.21.tar.gz",
+                    "sha256": "3810e998308fba2e0f4f26043035032b027ce51ce5c8a52a8b8e340ca65f13e5"
+                }
+            ]
+        },
+
+        {
+            "name": "rpcgen",
+            "buildsystem": "autotools",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/thkukuk/rpcsvc-proto/releases/download/v1.4.2/rpcsvc-proto-1.4.2.tar.xz",
+                    "sha256": "678851b9f7ddf4410d2859c12016b65a6dd1a0728d478f18aeb54d165352f17c"
+                }
+            ]
+        },
+        {
+            "name": "samba",
+            "buildsystem": "autotools",
+            "config-opts": [ "--without-json", "--without-ad-dc", "--without-ldap", "--without-ads", "--without-pam" ],
+            "build-options" : {
+                "env": {
+                    "PERLLIB": "/app/lib/perl5/site_perl/5.34.0:/app/lib/perl5/site_perl/5.34.0/arch"
+                }
+            },
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.15.3.tar.gz",
+                    "sha256": "519399404391550345846768ea4dd0fe7fcb04e20c2b891b5eeb02e5554137db"
+                }
+            ]
+        },
+        {
+            "name": "kdsoap",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/KDAB/KDSoap/releases/download/kdsoap-2.0.0/kdsoap-2.0.0.tar.gz",
+                    "sha256": "d18963104fa6f7d02b044631cddbe78f18f70e06c607af680c7ace04d6cf04ee"
+                }
+            ]
+        },
+        {
             "name": "kio-extras",
             "buildsystem": "cmake-ninja",
             "sources": [
