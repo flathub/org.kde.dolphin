@@ -147,7 +147,7 @@
                 "echo 'this is a workaround for a flatpak+perl limitation'",
                 "tar xhf Parse-Yapp-1.21.tar.gz",
                 "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
-                "ln -s /app/lib/perl5/site_perl/5.34.0/$(basename `ls -d /usr/lib/perl5/5.34.0/*-linux`) /app/lib/perl5/site_perl/5.34.0/arch"
+                "ln -s /app/lib/perl5/site_perl/5.34.1/$(basename `ls -d /usr/lib/perl5/5.34.1/*-linux`) /app/lib/perl5/site_perl/5.34.1/arch"
             ],
             "post-install": [
                 "chmod -R u+w /app/lib/perl5/site_perl"
@@ -178,7 +178,7 @@
             "config-opts": [ "--without-json", "--without-ad-dc", "--without-ldap", "--without-ads", "--without-pam" ],
             "build-options" : {
                 "env": {
-                    "PERLLIB": "/app/lib/perl5/site_perl/5.34.0:/app/lib/perl5/site_perl/5.34.0/arch"
+                    "PERLLIB": "/app/lib/perl5/site_perl/5.34.1:/app/lib/perl5/site_perl/5.34.1/arch"
                 }
             },
             "sources": [
