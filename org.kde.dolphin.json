@@ -5,20 +5,22 @@
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
     "command": "dolphin",
-    "finish-args": [ "--device=dri",
-                     "--share=ipc",
-                     "--share=network",
-                     "--socket=x11",
-                     "--socket=wayland",
-                     "--socket=pulseaudio",
-                     "--filesystem=home",
-                     "--filesystem=/run/media",
-                     "--filesystem=/media",
-                     "--talk-name=org.kde.kded5",
-                     "--talk-name=org.kde.kiod5",
-                     "--talk-name=org.kde.JobViewServer",
-                     "--talk-name=org.kde.kpasswdserver",
-                     "--system-talk-name=org.freedesktop.UDisks2" ],
+    "finish-args": [
+        "--device=dri",
+        "--share=ipc",
+        "--share=network",
+        "--socket=x11",
+        "--socket=wayland",
+        "--socket=pulseaudio",
+        "--filesystem=home",
+        "--filesystem=/run/media",
+        "--filesystem=/media",
+        "--talk-name=org.kde.kded5",
+        "--talk-name=org.kde.kiod5",
+        "--talk-name=org.kde.JobViewServer",
+        "--talk-name=org.kde.kpasswdserver",
+        "--system-talk-name=org.freedesktop.UDisks2"
+    ],
     "rename-icon": "system-file-manager",
     "cleanup": [
         "/lib/cmake",
@@ -41,19 +43,24 @@
                 }
             ],
             "no-autogen": true,
-            "make-install-args": ["prefix=/app"],
-            "subdir" : "libraries/liblmdb"
+            "make-install-args": [
+                "prefix=/app"
+            ],
+            "subdir": "libraries/liblmdb"
         },
         {
-            "config-opts": ["-DENABLE_TESTING=OFF" , "-DLMDB_DIR=/app"],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF",
+                "-DLMDB_DIR=/app"
+            ],
             "name": "baloo",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.93/baloo-5.93.0.tar.xz",
-                    "sha256": "25d11569fddb8ad0dddbaa91cedd3d96f0ad58a2cc23de920950db6ba3aed5cd",
+                    "url": "https://download.kde.org/stable/frameworks/5.96/baloo-5.96.0.tar.xz",
+                    "sha256": "d418d9ca3e700a148f0109e4ca4a2ade5b81d8f21cfcdbbfc9ed6dd86bed97c5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -64,7 +71,10 @@
             ]
         },
         {
-            "config-opts": ["-DENABLE_TESTING=OFF" , "-DLMDB_DIR=/app"],
+            "config-opts": [
+                "-DENABLE_TESTING=OFF",
+                "-DLMDB_DIR=/app"
+            ],
             "name": "baloo-widgets",
             "buildsystem": "cmake-ninja",
             "sources": [
@@ -103,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/dolphin-22.04.2.tar.xz",
-                    "sha256": "c2e3c4c16ff42a224f3dc72c79b2f641d1648d439bfa8c06635784843e58d147",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/dolphin-22.04.3.tar.xz",
+                    "sha256": "8e573e1df98b5b8f134374da641c1f289a00d1b6aabf65ecf3b2a6a854b22a1e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -130,8 +140,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/dolphin-plugins-22.04.2.tar.xz",
-                    "sha256": "ae6a5e36efb53b9f88ebcecdad78d73660d661f285dea135ccf337d1adf8ef28",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/dolphin-plugins-22.04.3.tar.xz",
+                    "sha256": "2e4a2cc09caa82689b724295d5514b30f06d0f9c7fc594f3635d31217eee21c6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -144,7 +154,9 @@
         "shared-modules/libusb/libusb.json",
         {
             "name": "libmtp",
-            "config-opts": [ "--with-udev=/app/lib/udev" ],
+            "config-opts": [
+                "--with-udev=/app/lib/udev"
+            ],
             "buildsystem": "autotools",
             "sources": [
                 {
@@ -186,7 +198,6 @@
                 }
             ]
         },
-
         {
             "name": "rpcgen",
             "buildsystem": "autotools",
@@ -201,8 +212,14 @@
         {
             "name": "samba",
             "buildsystem": "autotools",
-            "config-opts": [ "--without-json", "--without-ad-dc", "--without-ldap", "--without-ads", "--without-pam" ],
-            "build-options" : {
+            "config-opts": [
+                "--without-json",
+                "--without-ad-dc",
+                "--without-ldap",
+                "--without-ads",
+                "--without-pam"
+            ],
+            "build-options": {
                 "env": {
                     "PERLLIB": "/app/lib/perl5/site_perl/5.34.1:/app/lib/perl5/site_perl/5.34.1/arch"
                 }
@@ -232,8 +249,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/kio-extras-22.04.2.tar.xz",
-                    "sha256": "319959fd733eec1e22a72554255412ef6771b7ed8c1f4558a05d2097b5860717",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kio-extras-22.04.3.tar.xz",
+                    "sha256": "4b1253fd9ba21250c62b13279779b16e88eadff84886c5119964570ed83fb76c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -245,13 +262,19 @@
         },
         {
             "name": "ark",
-            "cleanup": [ "/share/icons", "/share/doc", "/share/man", "/share/config.kcfg", "/share/kxmlgui5" ],
+            "cleanup": [
+                "/share/icons",
+                "/share/doc",
+                "/share/man",
+                "/share/config.kcfg",
+                "/share/kxmlgui5"
+            ],
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.2/src/ark-22.04.2.tar.xz",
-                    "sha256": "c4a6b4728be2f76cbf1db5459e377678e9d124068ee4c05b7924b7ea022dfb69",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/ark-22.04.3.tar.xz",
+                    "sha256": "00e8efdbcb1b62f804860581c06e744f0f56a16769938638e34efd3931485ef2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
