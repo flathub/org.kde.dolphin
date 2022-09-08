@@ -113,8 +113,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/dolphin-22.08.0.tar.xz",
-                    "sha256": "03458f878b70d82f0a55396bb0bfe7409be867e77d31fb42b310888bd1f16682",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/dolphin-22.08.1.tar.xz",
+                    "sha256": "067bef1d24c411ba2bad2aee62ed10dd584c4c43184cbddfbefa775c9a1c9be9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -140,8 +140,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/dolphin-plugins-22.08.0.tar.xz",
-                    "sha256": "c52493d58aed762b6fd3fb4f41aee62a81893b88beb9f2283812180067e343d3",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/dolphin-plugins-22.08.1.tar.xz",
+                    "sha256": "a378343fcba0cf87a51f54829c726e00ebbcdef4c1a3e98245888980b2f7bc75",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -249,8 +249,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kio-extras-22.08.0.tar.xz",
-                    "sha256": "d65b5e7ef956b0f7941323114d2cfaff40b5d895f324868496a261a1af50f63f",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kio-extras-22.08.1.tar.xz",
+                    "sha256": "89e140e1e6668754b8cb688b5375108d1dfafe0fad65600dd13694fe6ca53038",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
