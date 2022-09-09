@@ -80,8 +80,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/baloo-widgets-22.08.0.tar.xz",
-                    "sha256": "38f799fde70b1d3fad21593caee97338d226c2ccfe0602ef7d96ea5a0c9689fa",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/baloo-widgets-22.08.1.tar.xz",
+                    "sha256": "b61e9fb76e73360d1f96c8862871d7ad1d8baf2b14b8f32a02697a4d1edae40a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
