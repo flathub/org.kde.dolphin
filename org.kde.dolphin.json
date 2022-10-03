@@ -103,6 +103,23 @@
             ]
         },
         {
+            "name": "konsole",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/konsole-22.08.1.tar.xz",
+                    "sha256": "f124954979cdc58b44b70a3500eaecef83421a652cae73f8bef961184fdc2101",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/konsole-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "dolphin",
             "buildsystem": "cmake-ninja",
             "post-install": [
