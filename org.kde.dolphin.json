@@ -15,6 +15,7 @@
         "--filesystem=home",
         "--filesystem=/run/media",
         "--filesystem=/media",
+        "--talk-name=org.freedesktop.Flatpak",
         "--talk-name=org.kde.kded5",
         "--talk-name=org.kde.kiod5",
         "--talk-name=org.kde.JobViewServer",
