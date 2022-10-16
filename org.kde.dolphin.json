@@ -191,8 +191,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.19/libmtp-1.1.19.tar.gz",
-                    "sha256": "deb4af6f63f5e71215cfa7fb961795262920b4ec6cb4b627f55b30b18aa33228",
+                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.20/libmtp-1.1.20.tar.gz",
+                    "sha256": "c9191dac2f5744cf402e08641610b271f73ac21a3c802734ec2cedb2c6bc56d0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 10017,
@@ -209,8 +209,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libssh.org/files/0.9/libssh-0.9.6.tar.xz",
-                    "sha256": "86bcf885bd9b80466fe0e05453c58b877df61afa8ba947a58c356d7f0fab829b",
+                    "url": "https://www.libssh.org/files/0.10/libssh-0.10.4.tar.xz",
+                    "sha256": "07392c54ab61476288d1c1f0a7c557b50211797ad00c34c3af2bbc4dbc4bd97d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1729,
