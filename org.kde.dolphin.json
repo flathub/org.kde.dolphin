@@ -226,7 +226,9 @@
             "build-commands": [
                 "echo 'this is a workaround for a flatpak+perl limitation'",
                 "tar xhf Parse-Yapp-1.21.tar.gz",
+                "tar xhf JSON-4.10.tar.gz",
                 "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
+                "cd JSON-4.10 && perl Makefile.PL PREFIX=/app && make && make install",
                 "ln -s /app/lib/perl5/site_perl/5.34.1/$(basename `ls -d /usr/lib/perl5/5.34.1/*-linux`) /app/lib/perl5/site_perl/5.34.1/arch"
             ],
             "post-install": [
@@ -243,6 +245,17 @@
                         "stable-only": true,
                         "url-template": "https://cpan.metacpan.org/authors/id/W/WB/WBRASWELL/Parse-Yapp-$version.tar.gz"
                     }
+                },
+                {
+                    "type": "file",
+                    "url": "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-4.10.tar.gz",
+                    "sha256": "df8b5143d9a7de99c47b55f1a170bd1f69f711935c186a6dc0ab56dd05758e35",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 12847,
+                        "stable-only": true,
+                        "url-template": "https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-$version.tar.gz"
+                    }
                 }
             ]
         },
@@ -252,8 +265,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/thkukuk/rpcsvc-proto/releases/download/v1.4.2/rpcsvc-proto-1.4.2.tar.xz",
-                    "sha256": "678851b9f7ddf4410d2859c12016b65a6dd1a0728d478f18aeb54d165352f17c",
+                    "url": "https://github.com/thkukuk/rpcsvc-proto/releases/download/v1.4.3/rpcsvc-proto-1.4.3.tar.xz",
+                    "sha256": "69315e94430f4e79c74d43422f4a36e6259e97e67e2677b2c7d7060436bd99b1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 155452,
@@ -281,8 +294,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.15.3.tar.gz",
-                    "sha256": "519399404391550345846768ea4dd0fe7fcb04e20c2b891b5eeb02e5554137db",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.17.0.tar.gz",
+                    "sha256": "04868ecda82fcbeda7b8bf519a2461a64d55c6e70efc6f6053b2fbba55f1823a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
@@ -298,8 +311,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/KDAB/KDSoap/releases/download/kdsoap-2.0.0/kdsoap-2.0.0.tar.gz",
-                    "sha256": "d18963104fa6f7d02b044631cddbe78f18f70e06c607af680c7ace04d6cf04ee",
+                    "url": "https://github.com/KDAB/KDSoap/releases/download/kdsoap-2.1.1/kdsoap-2.1.1.tar.gz",
+                    "sha256": "aed57f6b200ddf762f5d2898f7e9228dd0700881c4491aefe4006f7fa5f5c627",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17735,
