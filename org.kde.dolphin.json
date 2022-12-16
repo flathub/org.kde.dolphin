@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/baloo-widgets-22.08.3.tar.xz",
-                    "sha256": "0baabcbf277a56f4d7b1fb8f7aff2bddf77d1261bbabd6b717c0d26d2929db5a",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/baloo-widgets-22.12.0.tar.xz",
+                    "sha256": "e4451dc60d7177d8928144c6bad481338cef181b53c9709aa34e7d041b348e50",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/konsole-22.08.3.tar.xz",
-                    "sha256": "a6f07c4dc05b52c7844071137b6fe1b21f3cb54c63164d81c9a6332720fac09a",
+                    "url": "https://download.kde.org/stable/release-service/22.12.0/src/konsole-22.12.0.tar.xz",
+                    "sha256": "a76a929ecde12b60645c0c73aa448c408a778a859c0ca01cba1025a102efa8a8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -294,8 +294,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.17.3.tar.gz",
-                    "sha256": "5d1c420cb31ec613c786f98537f959659081edc6be8373e68e87140868938e26",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.17.4.tar.gz",
+                    "sha256": "c0512079db4cac707ccea4c18aebbd6b2eb3acf6e90735e7f645a326be1f4537",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
