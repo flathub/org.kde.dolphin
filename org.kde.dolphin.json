@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.102/baloo-5.102.0.tar.xz",
-                    "sha256": "ddac3964c3a05e50c996bfe5682802e14f31900102dd72d6ad2c7f18db61dd78",
+                    "url": "https://download.kde.org/stable/frameworks/5.103/baloo-5.103.0.tar.xz",
+                    "sha256": "b3ea1481b9fe77307287dc764eb5c7bd4c5ecc6c58e074be3a91b496c4e6a580",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
