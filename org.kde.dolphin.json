@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/konsole-22.12.3.tar.xz",
-                    "sha256": "59a9bc95446ecaeba20c04b324ce55934e9ea042ab9dbe75eb76d02b6cabf86f",
+                    "url": "https://download.kde.org/stable/release-service/23.04.0/src/konsole-23.04.0.tar.xz",
+                    "sha256": "21ce6f3cbc9add1a33c27b8a32aa5f71001c106e7d2566d2dec7a23d8eb7a59c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
