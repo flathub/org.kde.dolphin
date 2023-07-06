@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/baloo-widgets-23.04.2.tar.xz",
-                    "sha256": "d3a01392811ab0a6e850e0058518a95617ad50a2e2bb8c553931130a13a98b66",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/baloo-widgets-23.04.3.tar.xz",
+                    "sha256": "e67f47b9a7e77c73682de27f03ff2051506f1940404bb28f29ed6d917f9d6806",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/konsole-23.04.2.tar.xz",
-                    "sha256": "acc9565ede884284760e1b04654d2b187da82afde82c8a0411664943f23eecea",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/konsole-23.04.3.tar.xz",
+                    "sha256": "e06f400d03967ab6c43090fb52571e613981439f5006f45bf87a8d3762f0c8cc",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/dolphin-23.04.2.tar.xz",
-                    "sha256": "344e999e1ad101a7294e28d18c15d7e818d596fdc95253836ea04811d97f6147",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/dolphin-23.04.3.tar.xz",
+                    "sha256": "28cab05a6390e067f3a9c5ca176ec412f52bf20f78dc82a12a460d252211da2f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -170,8 +170,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/dolphin-plugins-23.04.2.tar.xz",
-                    "sha256": "bcd1e0b49744e3ff8dceb604beec25792f8bcca1ed47ae19c16c10c7bb755ddf",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/dolphin-plugins-23.04.3.tar.xz",
+                    "sha256": "1b11c0f832a5d16846358c9cf3a4aeac5d6673522799d2731faf481653292b40",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -328,8 +328,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kio-extras-23.04.2.tar.xz",
-                    "sha256": "88ed0887d4376dec4ecf8aa16739e672bf6b6a0525f8e89e194a2dd0487a18c1",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kio-extras-23.04.3.tar.xz",
+                    "sha256": "0d23f5cb5027f6dac110ade375f3b40eb8577c2122b0485b70efb6280c76fdf9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -352,8 +352,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/ark-23.04.2.tar.xz",
-                    "sha256": "de386d0a2aec6772fba51a7710e186718c75cecdf589fa3fd8d8dbd203e464ac",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/ark-23.04.3.tar.xz",
+                    "sha256": "81f87fb5bfbb28f74f1a360a40e0251864f83524b1d0d61b79dd1fe412e63a20",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
