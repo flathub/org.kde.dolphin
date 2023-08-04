@@ -143,13 +143,13 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/dolphin-23.04.3.tar.xz",
-                    "sha256": "28cab05a6390e067f3a9c5ca176ec412f52bf20f78dc82a12a460d252211da2f",
+                    "url": "https://download.kde.org/unstable/release-service/23.07.80/src/dolphin-23.07.80.tar.xz",
+                    "sha256": "37f68c35f42ccabd5ad146ae216c31ee210aa6eb1eea9dfbd544ef99eee5d945",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 8763,
+                        "project-id": 368663,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/dolphin-$version.tar.xz"
+                        "url-template": "https://download.kde.org/unstable/release-service/$version/src/dolphin-$version.tar.xz"
                     }
                 },
                 {
