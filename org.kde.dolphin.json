@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/unstable/release-service/23.07.80/src/dolphin-23.07.80.tar.xz",
-                    "sha256": "37f68c35f42ccabd5ad146ae216c31ee210aa6eb1eea9dfbd544ef99eee5d945",
+                    "url": "https://download.kde.org/unstable/release-service/23.07.90/src/dolphin-23.07.90.tar.xz",
+                    "sha256": "63d0f7e4d1011b30556d063f5b3816d3df95d14f8a3909e84349d8445d2883b1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 368663,
