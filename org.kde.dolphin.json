@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.108/baloo-5.108.0.tar.xz",
-                    "sha256": "032129dbd9aba7b624fef8796c406fd797c98d93b0cbb6ac5a80ee4232b4c5d8",
+                    "url": "https://download.kde.org/stable/frameworks/5.109/baloo-5.109.0.tar.xz",
+                    "sha256": "936f96597bb25a23f4ff5eb8df2b08e7fe444741a681a8d766f2f234720a5be6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -229,7 +229,7 @@
                 "tar xhf JSON-4.10.tar.gz",
                 "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
                 "cd JSON-4.10 && perl Makefile.PL PREFIX=/app && make && make install",
-                "ln -s /app/lib/perl5/site_perl/5.36.0/$(basename `ls -d /usr/lib/perl5/5.36.0/*-linux`) /app/lib/perl5/site_perl/5.36.0/arch"
+                "ln -s /app/lib/perl5/site_perl/5.36.1/$(basename `ls -d /usr/lib/perl5/5.36.1/*-linux`) /app/lib/perl5/site_perl/5.36.1/arch"
             ],
             "post-install": [
                 "chmod -R u+w /app/lib/perl5/site_perl"
@@ -288,7 +288,7 @@
             ],
             "build-options": {
                 "env": {
-                    "PERLLIB": "/app/lib/perl5/site_perl/5.36.0:/app/lib/perl5/site_perl/5.36.0/arch"
+                    "PERLLIB": "/app/lib/perl5/site_perl/5.36.1:/app/lib/perl5/site_perl/5.36.1/arch"
                 }
             },
             "sources": [
