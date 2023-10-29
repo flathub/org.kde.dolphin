@@ -1,7 +1,7 @@
 {
     "id": "org.kde.dolphin",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "default-branch": "stable",
     "command": "dolphin",
@@ -229,7 +229,7 @@
                 "tar xhf JSON-4.10.tar.gz",
                 "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
                 "cd JSON-4.10 && perl Makefile.PL PREFIX=/app && make && make install",
-                "ln -s /app/lib/perl5/site_perl/5.36.1/$(basename `ls -d /usr/lib/perl5/5.36.1/*-linux`) /app/lib/perl5/site_perl/5.36.1/arch"
+                "ln -s /app/lib/perl5/site_perl/5.38.0/$(basename `ls -d /usr/lib/perl5/5.38.0/*-linux`) /app/lib/perl5/site_perl/5.38.0/arch"
             ],
             "post-install": [
                 "chmod -R u+w /app/lib/perl5/site_perl"
@@ -288,7 +288,7 @@
             ],
             "build-options": {
                 "env": {
-                    "PERLLIB": "/app/lib/perl5/site_perl/5.36.1:/app/lib/perl5/site_perl/5.36.1/arch"
+                    "PERLLIB": "/app/lib/perl5/site_perl/5.38.0:/app/lib/perl5/site_perl/5.38.0/arch"
                 }
             },
             "sources": [
