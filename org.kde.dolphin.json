@@ -39,8 +39,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.31/openldap-LMDB_0.9.31.tar.bz2",
-                    "sha256": "2132b8261d241876ce5fe10a243b2f7e0127eecaaff30039573eadc09e3acee6",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_0.9.32/openldap-LMDB_0.9.32.tar.bz2",
+                    "sha256": "039be48414f71299d04fb01da3e1a6461075bb77eaeeeda36ee5285de804ebf6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -161,6 +161,10 @@
                 {
                     "type": "file",
                     "path": "run_dolphin.sh"
+                },
+                {
+                    "type": "patch",
+                    "path": "0001-org.kde.dolphin.appdata-Add-developer_name.patch"
                 }
             ]
         },
