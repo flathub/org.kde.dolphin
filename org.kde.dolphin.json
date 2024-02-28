@@ -66,8 +66,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.115/baloo-5.115.0.tar.xz",
-                    "sha256": "95cb2038efc4b32f3a17d5592bf247815ea6d02fb8707e04b65bdd80d851c108",
+                    "url": "https://download.kde.org/stable/frameworks/6.0/baloo-6.0.0.tar.xz",
+                    "sha256": "ea21e88d1fe252d2dc95e0b7ae8891594822ccdd898e7aa56d46ed9ecd626a41",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -87,8 +87,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/baloo-widgets-23.08.5.tar.xz",
-                    "sha256": "49196c7f74dfeb38b90ab388b35ee3542302ab89fc7b6ded4a3bfaa7f03938d4",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/baloo-widgets-24.02.0.tar.xz",
+                    "sha256": "9899d6dc6c383c1f6663c107b39ae61f2232fa83d4b633e792f63beced74cb1c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -121,8 +121,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/konsole-23.08.5.tar.xz",
-                    "sha256": "c6fb20753ac27a46bce62e31f7b105b6b99497035830b34a7bba1bc60260c1ca",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/konsole-24.02.0.tar.xz",
+                    "sha256": "2915edcd856552bd6199efb23dcaf194605ee4fb307c75e27606198253dfdfe0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/dolphin-23.08.5.tar.xz",
-                    "sha256": "6309abda566dfe890f6a3790f101198ed0f274728896054f21e24bdfc3e1f1f3",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/dolphin-24.02.0.tar.xz",
+                    "sha256": "10ef284597e28f933d8b4ead75d02759a15df4bcc928ed10b54f8065b7431257",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -174,8 +174,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/dolphin-plugins-23.08.5.tar.xz",
-                    "sha256": "2f448eea478dc178b2bb92071ad1a5fe85404879519be6534914fd865e6bc05d",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/dolphin-plugins-24.02.0.tar.xz",
+                    "sha256": "a2e9c61ddff843f083a5686d98719841374287835ef8fc5e1d1c43c22fd12be0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -332,8 +332,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kio-extras-23.08.5.tar.xz",
-                    "sha256": "1ae0ec1cc7239fd4fa46d8cb2629ceb364d4a70e7e56075d2ebfef68eb1b263f",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/kio-extras-24.02.0.tar.xz",
+                    "sha256": "805596c96a99b522b3aeb6992bc60c14a1c4ccd200e027143e8ded948c9962df",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -356,8 +356,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/ark-23.08.5.tar.xz",
-                    "sha256": "6081c564e2d4e25113691483d2cf3843461a9db6c726e1e547fa9a9697aecfeb",
+                    "url": "https://download.kde.org/stable/release-service/24.02.0/src/ark-24.02.0.tar.xz",
+                    "sha256": "ff11fe9352d8aa80207a21f3e024e18b4035cbbe689abaad20a91fe36c455469",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
