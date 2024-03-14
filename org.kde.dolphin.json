@@ -56,11 +56,11 @@
             "subdir": "libraries/liblmdb"
         },
         {
+            "name": "baloo",
             "config-opts": [
                 "-DENABLE_TESTING=OFF",
                 "-DLMDB_DIR=/app"
             ],
-            "name": "baloo",
             "buildsystem": "cmake-ninja",
             "builddir": true,
             "sources": [
@@ -78,12 +78,13 @@
             ]
         },
         {
-            "config-opts": [
-                "-DENABLE_TESTING=OFF",
-                "-DLMDB_DIR=/app"
-            ],
             "name": "baloo-widgets",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DENABLE_TESTING=OFF",
+                "-DLMDB_DIR=/app",
+                "-DBUILD_WITH_QT6=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -312,6 +313,9 @@
         {
             "name": "kdsoap",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DKDSoap_QT6=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
