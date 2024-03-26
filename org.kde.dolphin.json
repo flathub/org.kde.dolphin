@@ -143,8 +143,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/dolphin-23.08.5.tar.xz",
-                    "sha256": "6309abda566dfe890f6a3790f101198ed0f274728896054f21e24bdfc3e1f1f3",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/dolphin-24.02.1.tar.xz",
+                    "sha256": "597bb12c53984bae7310cda5e06dbed831fdae1a6e731f55bbc660b4a583da0e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -174,8 +174,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/dolphin-plugins-23.08.5.tar.xz",
-                    "sha256": "2f448eea478dc178b2bb92071ad1a5fe85404879519be6534914fd865e6bc05d",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/dolphin-plugins-24.02.1.tar.xz",
+                    "sha256": "68e64129af81a882cf6dc184329ed6b96f327c78f840b5e394406dbfe17cfeac",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -356,8 +356,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/ark-23.08.5.tar.xz",
-                    "sha256": "6081c564e2d4e25113691483d2cf3843461a9db6c726e1e547fa9a9697aecfeb",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/ark-24.02.1.tar.xz",
+                    "sha256": "8740e5b9577cc5f4eb889d880a56a7d1ee78c422bf3e30b00c1faa85e4148f64",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
