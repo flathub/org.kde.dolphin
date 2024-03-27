@@ -22,7 +22,6 @@
         "--talk-name=org.kde.kpasswdserver",
         "--system-talk-name=org.freedesktop.UDisks2"
     ],
-    "rename-icon": "system-file-manager",
     "cleanup": [
         "/lib/cmake",
         "/lib/pkgconfig",
@@ -136,8 +135,10 @@
         {
             "name": "dolphin",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DFLATPAK=ON"
+            ],
             "post-install": [
-                "for icon_size in 16 22 32 48 64 128; do install -Dm644 src/icons/${icon_size}-system-file-manager.png /app/share/icons/hicolor/${icon_size}x${icon_size}/apps/system-file-manager.png; done",
                 "mv /app/bin/{dolphin,dolphin-bin}",
                 "install run_dolphin.sh /app/bin/dolphin"
             ],
