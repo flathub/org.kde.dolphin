@@ -417,6 +417,20 @@
             ]
         },
         {
+            "name": "kdsoap-ws-discovery-client",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_WITH_QT6=ON"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kdsoap-ws-discovery-client/kdsoap-ws-discovery-client-0.4.0.tar.xz",
+                    "sha256": "2cd247c013e75f410659bac372aff93d22d71c5a54c059e137b9444af8b3427a"
+                }
+            ]
+        },
+        {
             "name": "kio-extras",
             "buildsystem": "cmake-ninja",
             "sources": [
