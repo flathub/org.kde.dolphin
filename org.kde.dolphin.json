@@ -3,7 +3,6 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
-    "default-branch": "stable",
     "command": "dolphin",
     "finish-args": [
         "--device=dri",
