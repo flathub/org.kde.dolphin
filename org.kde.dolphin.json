@@ -164,10 +164,6 @@
                 {
                     "type": "file",
                     "path": "run_dolphin.sh"
-                },
-                {
-                    "type": "patch",
-                    "path": "0001-org.kde.dolphin.appdata-Add-developer_name.patch"
                 }
             ]
         },
