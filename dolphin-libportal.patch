@@ -1,0 +1,117 @@
+From d399aada840b2adaaf42fb4e1b194e1b8116646c Mon Sep 17 00:00:00 2001
+From: Jan Grulich <jgrulich@redhat.com>
+Date: Tue, 24 Mar 2020 14:24:22 +0100
+Subject: [WIP] Add support for libportal
+
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 0ab79e643..f9cf0f785 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -97,6 +97,16 @@ set_package_properties(KF5FileMetaData PROPERTIES
+                        PURPOSE "For accessing file metadata labels"
+                       )
+ 
++find_package(LibPortalQt)
++set_package_properties(LibPortalQt PROPERTIES DESCRIPTION "LibPortalQt library"
++                       URL "https://github.com/flatpak/libportal"
++                       TYPE OPTIONAL
++                       PURPOSE "Improved Flatpak support"
++                       )
++if (LibPortalQt_FOUND)
++    set(HAVE_LIBPORTALQT TRUE)
++endif()
++
+ if (KF5Activities_FOUND)
+     set(HAVE_KACTIVITIES TRUE)
+ endif()
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index e8d623d2f..1e7915035 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -4,6 +4,8 @@ configure_file(config-baloo.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-baloo.h)
+ 
+ configure_file(config-kactivities.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-kactivities.h)
+ 
++configure_file(config-libportalqt.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-libportalqt.h)
++
+ configure_file(config-terminal.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/config-terminal.h)
+ 
+ add_definitions(
+@@ -288,6 +290,13 @@ if (HAVE_KACTIVITIES)
+     )
+ endif()
+ 
++if (HAVE_LIBPORTALQT)
++    target_link_libraries(
++        dolphinstatic
++        LibPortalQt
++    )
++endif()
++
+ set(dolphin_SRCS
+     dbusinterface.cpp
+     main.cpp
+diff --git a/src/config-libportalqt.h.cmake b/src/config-libportalqt.h.cmake
+new file mode 100644
+index 000000000..6ad59a1e5
+--- /dev/null
++++ b/src/config-libportalqt.h.cmake
+@@ -0,0 +1,2 @@
++#cmakedefine HAVE_LIBPORTALQT
++
+diff --git a/src/dolphincontextmenu.cpp b/src/dolphincontextmenu.cpp
+index ca0f5e32f..378a896ab 100644
+--- a/src/dolphincontextmenu.cpp
++++ b/src/dolphincontextmenu.cpp
+@@ -20,6 +20,7 @@
+ 
+ #include "dolphincontextmenu.h"
+ 
++#include "config-libportalqt.h"
+ #include "dolphin_generalsettings.h"
+ #include "dolphinmainwindow.h"
+ #include "dolphinnewfilemenu.h"
+@@ -54,6 +55,10 @@
+ #include <QMenuBar>
+ #include <QMimeDatabase>
+ 
++#ifdef HAVE_LIBPORTALQT
++#include <LibPortalQt/portal.h>
++#endif
++
+ DolphinContextMenu::DolphinContextMenu(DolphinMainWindow* parent,
+                                        const QPoint& pos,
+                                        const KFileItem& fileInfo,
+@@ -231,6 +236,19 @@ void DolphinContextMenu::openItemContextMenu()
+     fileItemActions.setParentWidget(m_mainWindow);
+     fileItemActions.setItemListProperties(selectedItemsProps);
+ 
++#ifdef HAVE_LIBPORTALQT
++    QAction *openUriAction = new QAction(QIcon::fromTheme(QStringLiteral("system-run")),
++                                         i18nc("@action:inmenu", "&Open With..."), this);
++    connect(openUriAction, &QAction::triggered, this, [=] () {
++        Xdp::Portal *portal = new Xdp::Portal;
++        Xdp::Parent xdpParent(m_mainWindow->windowHandle());
++        Xdp::OpenUriFlags flags = selectedItemsProps.supportsWriting() ? Xdp::OpenUriFlag::Ask | Xdp::OpenUriFlag::Writable : Xdp::OpenUriFlag::Ask;
++        portal->openUri(xdpParent, m_fileInfo.url().toDisplayString(), flags);
++        // FIXME: we have to make sure the portal object is not deleted before we get response, otherwise libportal will crash
++        connect(portal, &Xdp::Portal::openUriResponse, portal, &QObject::deleteLater);
++    });
++#endif
++
+     if (m_selectedItems.count() == 1) {
+         // single files
+         if (m_fileInfo.isDir()) {
+@@ -258,6 +276,11 @@ void DolphinContextMenu::openItemContextMenu()
+ 
+             addSeparator();
+         } else {
++#ifdef HAVE_LIBPORTALQT
++            if (Xdp::Portal::isSandboxed())
++                addAction(openUriAction);
++            else
++#endif
+             // Insert 'Open With" entries
+             addOpenWithActions(fileItemActions);
+         }
