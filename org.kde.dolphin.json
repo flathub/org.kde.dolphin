@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/baloo-widgets-24.08.2.tar.xz",
-                    "sha256": "b337a20b4681c82e8dd722313f57b58aa737e2d98420acc15124257a4d0263fe",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/baloo-widgets-24.08.3.tar.xz",
+                    "sha256": "78a56eac8a48f45ca9a9f645fb70b51b4b3df6a7500cc8443f4874bc6bc909de",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -122,8 +122,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/konsole-24.08.2.tar.xz",
-                    "sha256": "ae72ca4e2d9123b9bada99d2d3b01398ff5082b549b38579cf9aa94c2bffd719",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/konsole-24.08.3.tar.xz",
+                    "sha256": "687498a7eb8050549fd9a5bc94212f1cc7f33b81fee406b64a1ef6b7c65058da",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -146,8 +146,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/dolphin-24.08.2.tar.xz",
-                    "sha256": "551516270762b71a53502e42cae22106642e1253e22720632a805250434145b1",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/dolphin-24.08.3.tar.xz",
+                    "sha256": "95bbce876019fb0c7cc6ca4a5fd8ec1f625f70fd511fe883df12446a5285806d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -173,8 +173,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/dolphin-plugins-24.08.2.tar.xz",
-                    "sha256": "697ec682deb0e8f7d4fc14e8eb8e6cfb4c3c0961d8d74b5945d3c7afd004e80f",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/dolphin-plugins-24.08.3.tar.xz",
+                    "sha256": "a67259312b76ef2f46f1dad3c5fe4b3ec16322517db14de47861d6519be5d630",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -401,8 +401,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/libkexiv2-24.08.2.tar.xz",
-                    "sha256": "e29246536dc0af28c46708641614ec7f9e2174e0233ead37f33e99aaba098093",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/libkexiv2-24.08.3.tar.xz",
+                    "sha256": "9f3865411afb594ad2da9f2907e5124277f662be3f4c614bd4d5ccc36cfb8906",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -432,8 +432,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kio-extras-24.08.2.tar.xz",
-                    "sha256": "99a6f548c7aac18017ebe2b73ac99327f2585b418257bc1c7e065ced82bd2cc7",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/kio-extras-24.08.3.tar.xz",
+                    "sha256": "f4175717e2f2a5c730ba2f727113e8110c3a283c5f67603d369c2a3f561a68aa",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -456,8 +456,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/ark-24.08.2.tar.xz",
-                    "sha256": "7fdf074d985bb9f8c51d9fc187580f91e03ea7188c8ec5360bd31bd5dc15b83c",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ark-24.08.3.tar.xz",
+                    "sha256": "3c6a100fbb8512b8f891726274658c51ce10f9318d4c14dbb2380a2c602f321b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
