@@ -9,6 +9,7 @@
         "--filesystem=/media",
         "--filesystem=/run/media",
         "--filesystem=home",
+        "--own-name=org.kde.dolphin",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
@@ -16,13 +17,17 @@
         "--socket=wayland",
         "--system-talk-name=org.freedesktop.UDisks2",
         "--talk-name=org.freedesktop.Flatpak",
+        "--talk-name=org.kde.ActivityManager",
         "--talk-name=org.kde.JobViewServer",
+        "--talk-name=org.kde.KIOFuse",
         "--talk-name=org.kde.kded5",
         "--talk-name=org.kde.kded6",
+        "--talk-name=org.kde.kio.StashNotifier",
         "--talk-name=org.kde.kiod5",
         "--talk-name=org.kde.kiod6",
         "--talk-name=org.kde.kpasswdserver",
-        "--talk-name=org.kde.kpasswdserver6"
+        "--talk-name=org.kde.kpasswdserver6",
+        "--talk-name=org.kde.kuiserver"
     ],
     "cleanup": [
         "/lib/cmake",
