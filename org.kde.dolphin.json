@@ -9,6 +9,7 @@
         "--filesystem=/media",
         "--filesystem=/run/media",
         "--filesystem=home",
+        "--filesystem=~/.var/app",
         "--share=ipc",
         "--share=network",
         "--socket=fallback-x11",
