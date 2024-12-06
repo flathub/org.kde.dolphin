@@ -37,6 +37,108 @@
     ],
     "modules": [
         {
+            "name": "zstd",
+            "buildsystem": "simple",
+            "build-commands": [
+                "make",
+                "make PREFIX=/ DESTDIR=\"${FLATPAK_DEST}\" install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-1.4.5.tar.gz",
+                    "sha256": "98e91c7c6bf162bf90e4e70fdbc41a8188b9fa8de5ad840c401198014406ce9e"
+                }
+            ]
+        },
+        {
+            "name": "lz4",
+            "buildsystem": "simple",
+            "build-commands": [
+                "make -C lib PREFIX=/",
+                "make -C programs PREFIX=/usr lz4 lz4",
+                "make install PREFIX=/ DESTDIR=\"${FLATPAK_DEST}\" install"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/lz4/lz4/archive/v1.9.2.tar.gz",
+                    "sha256": "658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc"
+                }
+            ]
+        },
+        {
+            "name": "libarchive",
+            "config-opts": [
+                "--without-xml2"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.libarchive.org/downloads/libarchive-3.4.3.tar.xz",
+                    "sha256": "0bfc3fd40491768a88af8d9b86bf04a9e95b6d41a94f9292dbc0ec342288c05f"
+                }
+            ]
+        },
+        {
+            "name": "libzip",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://libzip.org/download/libzip-1.6.1.tar.xz",
+                    "sha256": "705dac7a671b3f440181481e607b0908129a9cf1ddfcba75d66436c0e7d33641"
+                }
+            ]
+        },
+        {
+            "name": "lzo",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz",
+                    "sha256": "c0f892943208266f9b6543b3ae308fab6284c5c90e627931446fb49b4221a072"
+                }
+            ]
+        },
+        {
+            "name": "lzop",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://www.lzop.org/download/lzop-1.04.tar.gz",
+                    "sha256": "7e72b62a8a60aff5200a047eea0773a8fb205caf7acbe1774d95147f305a2f41"
+                }
+            ]
+        },
+        {
+            "name": "lrzip",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ckolivas/lrzip/archive/v0.631.tar.gz",
+                    "sha256": "10315c20d5a47590e7220c210735ba169677824d5672509266682eccec84d952"
+                }
+            ]
+        },
+        {
+            "name": "ark",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ark-24.08.3.tar.xz",
+                    "sha256": "3c6a100fbb8512b8f891726274658c51ce10f9318d4c14dbb2380a2c602f321b",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ark-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "lmdb",
             "sources": [
                 {
@@ -441,30 +543,6 @@
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "ark",
-            "cleanup": [
-                "/share/icons",
-                "/share/doc",
-                "/share/man",
-                "/share/config.kcfg",
-                "/share/kxmlgui5"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ark-24.08.3.tar.xz",
-                    "sha256": "3c6a100fbb8512b8f891726274658c51ce10f9318d4c14dbb2380a2c602f321b",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ark-$version.tar.xz"
                     }
                 }
             ]
