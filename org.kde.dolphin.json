@@ -60,8 +60,7 @@
         {
             "name": "baloo",
             "config-opts": [
-                "-DENABLE_TESTING=OFF",
-                "-DLMDB_DIR=/app"
+                "-DBUILD_TESTING=OFF"
             ],
             "buildsystem": "cmake-ninja",
             "builddir": true,
@@ -83,9 +82,7 @@
             "name": "baloo-widgets",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DENABLE_TESTING=OFF",
-                "-DLMDB_DIR=/app",
-                "-DBUILD_WITH_QT6=ON"
+                "-DBUILD_TESTING=OFF"
             ],
             "sources": [
                 {
