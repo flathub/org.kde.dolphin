@@ -3,6 +3,8 @@
     "runtime": "org.kde.Platform",
     "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
+    "base": "org.kde.ark",
+    "base-version": "stable",
     "command": "dolphin",
     "finish-args": [
         "--device=dri",
@@ -536,30 +538,6 @@
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "ark",
-            "cleanup": [
-                "/share/icons",
-                "/share/doc",
-                "/share/man",
-                "/share/config.kcfg",
-                "/share/kxmlgui5"
-            ],
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/ark-24.12.0.tar.xz",
-                    "sha256": "a9e8e50a5cc2e56987cbc17d715e9c2958157c89cca8c21fa3b0d2fa802d0712",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ark-$version.tar.xz"
                     }
                 }
             ]
