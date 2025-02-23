@@ -84,8 +84,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.10/baloo-6.10.0.tar.xz",
-                    "sha256": "548019740d9462d10ad862fcf801bef166365315daf73209ad86cb76e012af2a",
+                    "url": "https://download.kde.org/stable/frameworks/6.11/baloo-6.11.0.tar.xz",
+                    "sha256": "bb87d40534a00cc363d29e3d7d0f37a9dcdd0d831db1a57bbf8b8e395507560a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -364,7 +364,7 @@
                 "tar xhf JSON-4.10.tar.gz",
                 "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
                 "cd JSON-4.10 && perl Makefile.PL PREFIX=/app && make && make install",
-                "ln -s /app/lib/perl5/site_perl/5.40.0/$(basename `ls -d /usr/lib/perl5/5.40.0/*-linux`) /app/lib/perl5/site_perl/5.40.0/arch"
+                "ln -s /app/lib/perl5/site_perl/5.40.1/$(basename `ls -d /usr/lib/perl5/5.40.1/*-linux`) /app/lib/perl5/site_perl/5.40.1/arch"
             ],
             "post-install": [
                 "chmod -R u+w /app/lib/perl5/site_perl"
@@ -423,14 +423,14 @@
             ],
             "build-options": {
                 "env": {
-                    "PERLLIB": "/app/lib/perl5/site_perl/5.40.0:/app/lib/perl5/site_perl/5.40.0/arch"
+                    "PERLLIB": "/app/lib/perl5/site_perl/5.40.1:/app/lib/perl5/site_perl/5.40.1/arch"
                 }
             },
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.21.3.tar.gz",
-                    "sha256": "ae2179a613e7a5d4088735ab100d4ca1cae0f92374d6307e22eaec13ad90125c",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.21.4.tar.gz",
+                    "sha256": "50acf030db0ce6be1ee8a6c3a7636e54576c60a7f814e64becfa840f7b30eced",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
@@ -512,8 +512,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.4.tar.gz",
-                    "sha256": "65cb3a813f34fb6db7a72bba3fc295dd6c419082d2d8bbf96518be6d1024b784",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.5.tar.gz",
+                    "sha256": "e1671f744e379a87ba0c984617406fdf8c0ad0c594e5122f525b2fb7c28d394d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
