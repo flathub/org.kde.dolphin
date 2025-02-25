@@ -42,8 +42,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.0/kde-cli-tools-6.3.0.tar.xz",
-                    "sha256": "cccbcd737f1f433f2eeb17ee1e3b8cc10b673a13b685bc0d60a391978fc97b3b",
+                    "url": "https://download.kde.org/stable/plasma/6.3.2/kde-cli-tools-6.3.2.tar.xz",
+                    "sha256": "34e89efeca2615ea8819575a1c3595c5bb2b34e0881943cc8b616675a3d7c005",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
