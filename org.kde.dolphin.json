@@ -23,7 +23,8 @@
         "--talk-name=org.kde.kiod5",
         "--talk-name=org.kde.kiod6",
         "--talk-name=org.kde.kpasswdserver",
-        "--talk-name=org.kde.kpasswdserver6"
+        "--talk-name=org.kde.kpasswdserver6",
+        "--talk-name=org.kde.kuiserver"
     ],
     "cleanup": [
         "/lib/cmake",
