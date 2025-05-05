@@ -36,6 +36,12 @@
         "*.a",
         "*.la"
     ],
+    "build-options": {
+        "env": {
+            "PERLLIB": "/app/lib/perl5:/app/lib/perl5/arch",
+            "PERL_MM_OPT": "INSTALL_BASE=/app"
+        }
+    },
     "modules": [
         {
             "name": "kde-cli-tools",
@@ -363,12 +369,12 @@
                 "echo 'this is a workaround for a flatpak+perl limitation'",
                 "tar xhf Parse-Yapp-1.21.tar.gz --no-same-owner",
                 "tar xhf JSON-4.10.tar.gz --no-same-owner",
-                "cd Parse-Yapp-1.21 && perl Makefile.PL PREFIX=/app && make && make install",
-                "cd JSON-4.10 && perl Makefile.PL PREFIX=/app && make && make install",
-                "ln -s /app/lib/perl5/site_perl/5.40.2/$(basename `ls -d /usr/lib/perl5/5.40.2/*-linux`) /app/lib/perl5/site_perl/5.40.2/arch"
+                "cd Parse-Yapp-1.21 && perl Makefile.PL && make && make install",
+                "cd JSON-4.10 && perl Makefile.PL && make && make install",
+                "ln -s /app/lib/perl5/$(basename `ls -d /usr/lib/perl5/5.*/*-linux`) /app/lib/perl5/arch"
             ],
             "post-install": [
-                "chmod -R u+w /app/lib/perl5/site_perl"
+                "chmod -R u+w /app/lib/perl5"
             ],
             "sources": [
                 {
@@ -422,11 +428,6 @@
                 "--without-ads",
                 "--without-pam"
             ],
-            "build-options": {
-                "env": {
-                    "PERLLIB": "/app/lib/perl5/site_perl/5.40.2:/app/lib/perl5/site_perl/5.40.2/arch"
-                }
-            },
             "sources": [
                 {
                     "type": "archive",
