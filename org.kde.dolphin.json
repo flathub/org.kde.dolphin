@@ -1,7 +1,7 @@
 {
     "id": "org.kde.dolphin",
     "runtime": "org.kde.Platform",
-    "runtime-version": "6.8",
+    "runtime-version": "6.9",
     "sdk": "org.kde.Sdk",
     "command": "dolphin",
     "finish-args": [
@@ -62,6 +62,11 @@
         },
         {
             "name": "lmdb",
+            "no-autogen": true,
+            "make-install-args": [
+                "prefix=/app"
+            ],
+            "subdir": "libraries/liblmdb",
             "sources": [
                 {
                     "type": "archive",
@@ -74,12 +79,7 @@
                         "url-template": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_$version/openldap-LMDB_$version.tar.bz2"
                     }
                 }
-            ],
-            "no-autogen": true,
-            "make-install-args": [
-                "prefix=/app"
-            ],
-            "subdir": "libraries/liblmdb"
+            ]
         },
         {
             "name": "baloo",
@@ -124,7 +124,6 @@
         },
         {
             "name": "icoutils",
-            "buildsystem": "autotools",
             "sources": [
                 {
                     "type": "archive",
@@ -329,7 +328,6 @@
             "config-opts": [
                 "--with-udev=/app/lib/udev"
             ],
-            "buildsystem": "autotools",
             "sources": [
                 {
                     "type": "archive",
@@ -403,7 +401,6 @@
         },
         {
             "name": "rpcgen",
-            "buildsystem": "autotools",
             "sources": [
                 {
                     "type": "archive",
@@ -420,7 +417,6 @@
         },
         {
             "name": "samba",
-            "buildsystem": "autotools",
             "config-opts": [
                 "--without-json",
                 "--without-ad-dc",
