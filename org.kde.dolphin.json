@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.5/kde-cli-tools-6.3.5.tar.xz",
-                    "sha256": "f047a46756c882f9392c64e3e62ad098ab18f37f1f35bdfc62082b14a7a69037",
+                    "url": "https://download.kde.org/stable/plasma/6.4.0/kde-cli-tools-6.4.0.tar.xz",
+                    "sha256": "4f4ebed7c17a25079c54ef031929ac55d6777acd3cf595ca6343f4d0a4f00ba9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -91,8 +91,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/baloo-6.13.0.tar.xz",
-                    "sha256": "5b4574d9a4a080bdc975e931bd411a7386a0c17ff0d5c5751dd26c92010133f8",
+                    "url": "https://download.kde.org/stable/frameworks/6.15/baloo-6.15.0.tar.xz",
+                    "sha256": "241015fd14ea0fcf281080fd160994f92b6e0ba0750cfafd488d31bf0e0a7f4f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
