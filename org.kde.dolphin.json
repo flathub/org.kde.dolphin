@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.3.5/kde-cli-tools-6.3.5.tar.xz",
-                    "sha256": "f047a46756c882f9392c64e3e62ad098ab18f37f1f35bdfc62082b14a7a69037",
+                    "url": "https://download.kde.org/stable/plasma/6.4.4/kde-cli-tools-6.4.4.tar.xz",
+                    "sha256": "1cd1e21cacc1c73f4a25d5e98f3fbe8425ba8f2faa13e4aad83030cbf21fcf4c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -91,8 +91,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.13/baloo-6.13.0.tar.xz",
-                    "sha256": "5b4574d9a4a080bdc975e931bd411a7386a0c17ff0d5c5751dd26c92010133f8",
+                    "url": "https://download.kde.org/stable/frameworks/6.17/baloo-6.17.0.tar.xz",
+                    "sha256": "21aac3e95ea095df029bbe0bd5663aa398a8894e9c31ea7fabb5cd0b9848544a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -427,8 +427,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.22.3.tar.gz",
-                    "sha256": "8fd7092629a3596d935cd7567d934979f94272918ec3affd0cc807934ecf22ba",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.22.4.tar.gz",
+                    "sha256": "a41a828848abdf5e942c900ca178597e18aab7b61d3c06a9b5ba43661988010b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
