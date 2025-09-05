@@ -219,6 +219,7 @@
                 }
             ]
         },
+        "shared-modules/libsecret/libsecret.json",
         {
             "name": "libvlc",
             "config-opts": [
