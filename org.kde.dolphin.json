@@ -6,9 +6,7 @@
     "command": "dolphin",
     "finish-args": [
         "--device=dri",
-        "--filesystem=/media",
-        "--filesystem=/run/media",
-        "--filesystem=home",
+        "--filesystem=host",
         "--filesystem=~/.var/app",
         "--share=ipc",
         "--share=network",
