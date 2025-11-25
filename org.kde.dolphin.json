@@ -49,8 +49,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.5.1/kde-cli-tools-6.5.1.tar.xz",
-                    "sha256": "74661d8dc71a345b90651775980b0ad3afb288194af06aa33abc698e0183e2c3",
+                    "url": "https://download.kde.org/stable/plasma/6.5.2/kde-cli-tools-6.5.2.tar.xz",
+                    "sha256": "834f1da71ec6f9eb2d0560218080a0f02a00cd6609c9ed5464011700c28a0a1c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -111,8 +111,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/baloo-widgets-25.08.2.tar.xz",
-                    "sha256": "5c6cd3cb6f4d0b689fc42367c5418ac6bf178978714394ffb5bcd5f3a7341bcd",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/baloo-widgets-25.08.3.tar.xz",
+                    "sha256": "fc0a8ec5321b3f4bb0e1f165cd8e7577019b90d5755170802634a68dfc3ce7cb",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -148,8 +148,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/konsole-25.08.2.tar.xz",
-                    "sha256": "220fb44a02e5dd3110bc7d8a04f4d7c910bc99b5b1877a36befd06d1e65fe377",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/konsole-25.08.3.tar.xz",
+                    "sha256": "095a7ff10df3c70779b356fb3b5984062bbc698bbed966230e3dbccf6af36615",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -190,8 +190,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/ffmpegthumbs-25.08.2.tar.xz",
-                    "sha256": "d2f1781bcdb0f1ca2fe6abbcde93c0d84507f0cee23650dfd94eb8a1b7e94c8c",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/ffmpegthumbs-25.08.3.tar.xz",
+                    "sha256": "84ecd131a50799815f414522fc1270c56e0ee45bbfaf96f9e1d2c9278dc84962",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -288,8 +288,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/dolphin-25.08.2.tar.xz",
-                    "sha256": "06f4f1698f6407fd34b8c9b2103d91a21ccab6467485bb5fa23e23736ea66791",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/dolphin-25.08.3.tar.xz",
+                    "sha256": "1abd632ebe3837df5616216f69c3ca9f6240165f9f84502422203275eaa8ee09",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -315,8 +315,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/dolphin-plugins-25.08.2.tar.xz",
-                    "sha256": "4311dd59b94a012625e7fb6587d4f0ec010db2571cb2b5087af01909cf150fc8",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/dolphin-plugins-25.08.3.tar.xz",
+                    "sha256": "28449d15e0aace77563f3b6f13f47ba06854160a075df42387fc03f670a8bac5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -429,8 +429,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.23.2.tar.gz",
-                    "sha256": "2de330647e1486683597e261285d04a9b7514ab5c7da27711736e22c7f2b9c2e",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.23.3.tar.gz",
+                    "sha256": "06cdbb27a6956978b045455fe0696d998ffbac8d24ba24de87a4ef8200813320",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
@@ -533,8 +533,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/libkexiv2-25.08.2.tar.xz",
-                    "sha256": "1b8aea78736662af17d6ae0391345933754f98cffca1535204813eb27eff6222",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/libkexiv2-25.08.3.tar.xz",
+                    "sha256": "0806898554b62a6f834d33bb481923d82bde91b1692ba7b146fec94b9a503d03",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -564,8 +564,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/kio-extras-25.08.2.tar.xz",
-                    "sha256": "868f9f2e0f572725387ea311f199d2fa044acc03656f3751e7ca26400861375f",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kio-extras-25.08.3.tar.xz",
+                    "sha256": "99f966dcc663be8cb3c906778c82b32da4b178bd296d8cd85b9e3f56e8e9c2d2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -588,8 +588,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.2/src/ark-25.08.2.tar.xz",
-                    "sha256": "763eabec1e80050f3443bb7a0bc36d777b28ab07200efb16630bf33f7db0cbca",
+                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/ark-25.08.3.tar.xz",
+                    "sha256": "ca4fb7295f090280df02d24b64f113e10c6f618138b387bc1fd7a2c561de554f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
