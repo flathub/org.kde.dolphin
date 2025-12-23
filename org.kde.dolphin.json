@@ -36,6 +36,16 @@
         "*.a",
         "*.la"
     ],
+    "add-extensions": {
+        "org.freedesktop.Platform.ffmpeg-full": {
+            "version": "24.08",
+            "directory": "lib/ffmpeg",
+            "add-ld-path": "."
+        }
+    },
+    "cleanup-commands": [
+        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
+    ],
     "build-options": {
         "env": {
             "PERL5LIB": "/app/lib/perl5:/app/lib/perl5/arch",
@@ -91,8 +101,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.20/baloo-6.20.0.tar.xz",
-                    "sha256": "06a0dc24b9cae08c7228aebc3215185042b58c4fc58ef86c8863e577493d1314",
+                    "url": "https://download.kde.org/stable/frameworks/6.21/baloo-6.21.0.tar.xz",
+                    "sha256": "5cfef8830485a7d420fbadca67cd441822bc59efc1c71b0afef233b97553771e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -148,35 +158,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/konsole-25.08.3.tar.xz",
-                    "sha256": "095a7ff10df3c70779b356fb3b5984062bbc698bbed966230e3dbccf6af36615",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/konsole-25.12.0.tar.xz",
+                    "sha256": "bfe39ed22b830c99e37583ad0e67eb28e912c43235b3ab478986374676234a34",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/konsole-$version.tar.xz"
                     }
-                }
-            ]
-        },
-        {
-            "name": "ffmpeg",
-            "config-opts": [
-                "--enable-pic",
-                "--enable-shared",
-                "--disable-doc",
-                "--disable-static",
-                "--enable-gpl",
-                "--enable-libvpx",
-                "--enable-libmp3lame",
-                "--enable-libvorbis",
-                "--enable-libopus"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://ffmpeg.org/releases/ffmpeg-4.4.5.tar.xz",
-                    "sha256": "f9514e0d3515aee5a271283df71636e1d1ff7274b15853bcd84e144be416ab07"
                 }
             ]
         },
@@ -190,8 +179,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/ffmpegthumbs-25.08.3.tar.xz",
-                    "sha256": "84ecd131a50799815f414522fc1270c56e0ee45bbfaf96f9e1d2c9278dc84962",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/ffmpegthumbs-25.12.0.tar.xz",
+                    "sha256": "e4784eefd1af57ed066092ce591bce8515cffda5d99668d7e7191af05ccc6bcf",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -284,8 +273,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/dolphin-25.08.3.tar.xz",
-                    "sha256": "1abd632ebe3837df5616216f69c3ca9f6240165f9f84502422203275eaa8ee09",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/dolphin-25.12.0.tar.xz",
+                    "sha256": "02d67059c13c5a4cf74847f0f1c0cf9a6de47345ca80f2e3ba5ba8f408481bff",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -560,8 +549,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.08.3/src/kio-extras-25.08.3.tar.xz",
-                    "sha256": "99f966dcc663be8cb3c906778c82b32da4b178bd296d8cd85b9e3f56e8e9c2d2",
+                    "url": "https://download.kde.org/stable/release-service/25.12.0/src/kio-extras-25.12.0.tar.xz",
+                    "sha256": "453563fef8563e67680daf5ace17b4f1a5abd2cbdf80d50e1cf9bdadbde8df41",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
