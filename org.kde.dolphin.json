@@ -36,16 +36,6 @@
         "*.a",
         "*.la"
     ],
-    "add-extensions": {
-        "org.freedesktop.Platform.ffmpeg-full": {
-            "version": "24.08",
-            "directory": "lib/ffmpeg",
-            "add-ld-path": "."
-        }
-    },
-    "cleanup-commands": [
-        "mkdir -p ${FLATPAK_DEST}/lib/ffmpeg"
-    ],
     "build-options": {
         "env": {
             "PERL5LIB": "/app/lib/perl5:/app/lib/perl5/arch",
