@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.5.5/kde-cli-tools-6.5.5.tar.xz",
-                    "sha256": "083b5d3c8e6315554547e1fc538c7d9f0671e08f7c52f2bc0a5a345027a12279",
+                    "url": "https://download.kde.org/stable/plasma/6.6.2/kde-cli-tools-6.6.2.tar.xz",
+                    "sha256": "3c99507ae2b73e0a9d4cd4b6a832cc78b7b3c7fd7577cfc0992e10f016892d60",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -94,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.22/baloo-6.22.0.tar.xz",
-                    "sha256": "57b2ac1ae953d499b7364125fe3e7aa5857fb532456ecf0bda2635e875a66d2a",
+                    "url": "https://download.kde.org/stable/frameworks/6.23/baloo-6.23.0.tar.xz",
+                    "sha256": "61cec3ea772d083421a9d94dac2d4b9d7bd1bd74abf3dece97df2ec646d20113",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -312,8 +312,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.22/libmtp-1.1.22.tar.gz",
-                    "sha256": "c3fcf411aea9cb9643590cbc9df99fa5fe30adcac695024442973d76fa5f87bc",
+                    "url": "https://sourceforge.net/projects/libmtp/files/libmtp/1.1.23/libmtp-1.1.23.tar.gz",
+                    "sha256": "74a2b6e8cb4a0304e95b995496ea3ac644c29371649b892b856e22f12a0bdeed",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 10017,
@@ -330,8 +330,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libssh.org/files/0.11/libssh-0.11.3.tar.xz",
-                    "sha256": "7d8a1361bb094ec3f511964e78a5a4dba689b5986e112afabe4f4d0d6c6125c3",
+                    "url": "https://www.libssh.org/files/0.12/libssh-0.12.0.tar.xz",
+                    "sha256": "1a6af424d8327e5eedef4e5fe7f5b924226dd617ac9f3de80f217d82a36a7121",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1729,
@@ -407,8 +407,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.23.5.tar.gz",
-                    "sha256": "593a43ddd0d57902237dfa76888f7b02cb7fc7747111369cb31e126db4836b9f",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.23.6.tar.gz",
+                    "sha256": "e3dabd8b5e42dc97669fa0faef032510a94e496b58f7067082e5036d88f0e702",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
@@ -490,8 +490,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.7.tar.gz",
-                    "sha256": "5e292b02614dbc0cee40fe1116db2f42f63ef6b2ba430c77b614e17b8d61a638",
+                    "url": "https://github.com/Exiv2/exiv2/archive/refs/tags/v0.28.8.tar.gz",
+                    "sha256": "ea51b0609f58a9afa063b60daa1539948b62247721e154f4fff0ad3aec9f9756",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 769,
