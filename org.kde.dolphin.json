@@ -184,6 +184,57 @@
             ]
         },
         {
+            "name": "ghostscript",
+            "buildsystem": "autotools",
+            "no-autogen": true,
+            "config-opts": [
+                "--disable-cups",
+                "--disable-gtk",
+                "--without-x",
+                "--disable-dbus",
+                "--disable-compile-inits",
+                "--with-system-zlib",
+                "--with-system-libpng",
+                "--with-system-libjpeg",
+                "--with-system-openjpeg",
+                "--with-system-freetype",
+                "--with-system-fontconfig"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.xz",
+                    "sha256": "64352648c2c081c8a9fb1a12dc1965e01ead7c57f58b72d1b54f6ef1cef3c561",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 1157,
+                        "stable-only": true
+                    }
+                }
+            ]
+        },
+        {
+            "name": "kdegraphics-thumbnailers",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DDISABLE_MOBIPOCKET=ON"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kdegraphics-thumbnailers-25.12.2.tar.xz",
+                    "sha256": "1feab9e5ad1aa2d8abcedd7a33b537644bf1c3f3427ffd6a55c8b83368f86ed3",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kdegraphics-thumbnailers-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "dolphin",
             "buildsystem": "cmake-ninja",
             "config-opts": [
