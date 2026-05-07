@@ -94,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.24/baloo-6.24.0.tar.xz",
-                    "sha256": "1f72676817b9636b80c971934fb7f2c5d396da4758c33998abc4b9ae82195ce4",
+                    "url": "https://download.kde.org/stable/frameworks/6.25/baloo-6.25.0.tar.xz",
+                    "sha256": "d7746f5742d96f85c11b64a1aae8a6af1f20e55b815f81da8a4e6c3c5172a2d9",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -114,8 +114,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/baloo-widgets-25.12.3.tar.xz",
-                    "sha256": "0b03fc0adfeda46deeb53fb5e22bb9108715ebc1d8f5b19ca4e5c2216332c711",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/baloo-widgets-26.04.1.tar.xz",
+                    "sha256": "687856a4390680ad1584ff2edf8d7eed5857be6a51ca485600b521bd82ebdcd0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -151,8 +151,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/konsole-25.12.3.tar.xz",
-                    "sha256": "c3e13be55cbe553ebd6ba5f04f9194c79a4ba15d1ed8f3d151ac7afae016f232",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/konsole-26.04.1.tar.xz",
+                    "sha256": "4c59dabc4b64201c61458e8997a66d1aa7dc98b181e5e85f3c0f5cb69066d963",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -172,8 +172,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/ffmpegthumbs-25.12.3.tar.xz",
-                    "sha256": "eeb38acc65a955c16532b83a20bca08fce3e484674dbb0ccaecae44277ef8de8",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/ffmpegthumbs-26.04.1.tar.xz",
+                    "sha256": "df38f6782f02f4a941c25bee7edee22f48865109e27419c599b71d155a57f4fe",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -223,8 +223,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kdegraphics-thumbnailers-25.12.3.tar.xz",
-                    "sha256": "05eb9e268c161d25c6899f1affdb99acaf8ec506a11083fea807e335a5de18f9",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kdegraphics-thumbnailers-26.04.1.tar.xz",
+                    "sha256": "684fe7c8bd600b99909908f816189940a3e4b8fcf3151e52db798342f529c200",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -247,8 +247,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/dolphin-25.12.3.tar.xz",
-                    "sha256": "9961de7cc076d9d7d598bb7f53afdebcfba20567093231f42ba72e031e089a3b",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/dolphin-26.04.1.tar.xz",
+                    "sha256": "ba4da5192f7e45f392feaa74dfb18fddddcf9dbcc8f9abeb3f670e83ed9e4f57",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -274,8 +274,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/dolphin-plugins-25.12.3.tar.xz",
-                    "sha256": "a738d4f9f1148283ff0552ffc5a440cabc5f216aa2473c22e699593b3b01a7c0",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/dolphin-plugins-26.04.1.tar.xz",
+                    "sha256": "eff4e09163ef6785fa4f93074f32be7e7e2bb0173f16a06bdfaabc3860f06d02",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -388,8 +388,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.24.0.tar.gz",
-                    "sha256": "1b1e457fd651a612cd08226cc6efd04e5d01e36d918c8b4c4e470e74e86881ea",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.24.1.tar.gz",
+                    "sha256": "217151ca318a5576f8e0de72ba0acdf08157ecf12adac42d1af86db0b09a5f5a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
@@ -492,8 +492,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/libkexiv2-25.12.3.tar.xz",
-                    "sha256": "8ed6de46cdd084a834dd0f2049d6490977a8eedc50a2e59f715fb1cecf6653ec",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/libkexiv2-26.04.1.tar.xz",
+                    "sha256": "7827c710db4b63d059a0721b6a2a833663d0c457bf4219eb8dfc1c98b19c93e5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -523,8 +523,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kio-extras-25.12.3.tar.xz",
-                    "sha256": "b161e363320f96cffba0195e4045a88049fc3c5b93272532dce5ab6ce886916a",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/kio-extras-26.04.1.tar.xz",
+                    "sha256": "f53a64fbe5f0bbcadde55f347fef41d2f39c0b5cdcb7c74df8dee7439ee1194c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -547,8 +547,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/ark-25.12.3.tar.xz",
-                    "sha256": "81f27ef08e216f3cedce10a2b2e2c74ba27735219d8f149c9d1399f7565e028b",
+                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/ark-26.04.1.tar.xz",
+                    "sha256": "e355434eb5d50499902cdb2a7120f5d5299feedaaad5f49d629436e55a668c71",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
