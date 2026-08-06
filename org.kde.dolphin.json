@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.7.2/kde-cli-tools-6.7.2.tar.xz",
-                    "sha256": "f76a520bb2f89a69cf1785885dd58185ff952f484893430928895af277ccc37b",
+                    "url": "https://download.kde.org/stable/plasma/6.7.4/kde-cli-tools-6.7.4.tar.xz",
+                    "sha256": "9b93730cbea9eecd2b17c84603c1496d18d08749d2861f87a7552f463d7aecb0",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8761,
@@ -73,8 +73,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.0/openldap-LMDB_1.0.0.tar.bz2",
-                    "sha256": "9ab73cda2ca2132d10256a63b655981af4860f6dc8315a933175ff9b598ffab2",
+                    "url": "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.1/openldap-LMDB_1.0.1.tar.bz2",
+                    "sha256": "1ae17f11ebdeb0d69e53416bb6e0a7479a7d3d5b5ca443a474bff5b5f886a348",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 6974,
@@ -94,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.27/baloo-6.27.0.tar.xz",
-                    "sha256": "6b226118bde28e81217f8cd6129f6e24c5d422bd7a322fe682e592b028b72db7",
+                    "url": "https://download.kde.org/stable/frameworks/6.28/baloo-6.28.0.tar.xz",
+                    "sha256": "9cc6ac9ab0605eab7f337b7ea1803348da4a71173b722d5047748c557ba22c0f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -203,8 +203,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10060/ghostscript-10.06.0.tar.xz",
-                    "sha256": "64352648c2c081c8a9fb1a12dc1965e01ead7c57f58b72d1b54f6ef1cef3c561",
+                    "url": "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10071/ghostscript-10.07.1.tar.gz",
+                    "sha256": "2fc74362f9be6fae1b0a65d38fdcfd4f0b518cc3b07c5581fb661eb4d2e15251",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1157,
@@ -312,8 +312,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://www.libssh.org/files/0.12/libssh-0.12.0.tar.xz",
-                    "sha256": "1a6af424d8327e5eedef4e5fe7f5b924226dd617ac9f3de80f217d82a36a7121",
+                    "url": "https://www.libssh.org/files/0.12/libssh-0.12.2.tar.xz",
+                    "sha256": "49560f677d96e3706a904ac2de1116e25f3680937d51e5c92198fcba4a1c1e9f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 1729,
@@ -389,8 +389,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.24.4.tar.gz",
-                    "sha256": "df2c51ab4361ec626ab9988e5946efcca8465bc7afae834291d5558468265ff8",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.24.5.tar.gz",
+                    "sha256": "6d5d7ee82f5ce9da4135086c9b184e47a58b4b023565f58abbb1f8c8a922306b",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
