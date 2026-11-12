@@ -148,6 +148,9 @@
         {
             "name": "konsole",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DWITH_LIBSSH=OFF"
+            ],
             "sources": [
                 {
                     "type": "archive",
