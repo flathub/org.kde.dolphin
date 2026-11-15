@@ -94,8 +94,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/6.31/baloo-6.31.0.tar.xz",
-                    "sha256": "178d6550a7c55a820322182814a96a7564343a506772971e4aac8b1e7e4d1829",
+                    "url": "https://download.kde.org/stable/frameworks/6.32/baloo-6.32.0.tar.xz",
+                    "sha256": "305c0e41dab070cac27d2e9530a81aab95157dd76c1c00ffe87d1ad08734dad7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -392,8 +392,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://samba.org/samba/ftp/stable/samba-4.24.4.tar.gz",
-                    "sha256": "df2c51ab4361ec626ab9988e5946efcca8465bc7afae834291d5558468265ff8",
+                    "url": "https://samba.org/samba/ftp/stable/samba-4.25.1.tar.gz",
+                    "sha256": "7f367545bca69aa96897628f82f0f04d4b66b3bcb36cb978b9bb952c4b4c428d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 4758,
