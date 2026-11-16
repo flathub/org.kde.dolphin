@@ -522,57 +522,6 @@
             ]
         },
         {
-            "name": "plasma-activities",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.8.3/plasma-activities-6.8.3.tar.xz",
-                    "sha256": "bdd3c491e74a2c4b1afa3c8074edfbf8b024b6584c945e56ed9f3a28254c80f1",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8761,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma/$version/plasma-activities-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "plasma-activities-stats",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma/6.8.3/plasma-activities-stats-6.8.3.tar.xz",
-                    "sha256": "88681ff26460d3498b966aa3d16f4b9ba60e5571408af6341b46f6da35ec141f",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8761,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/plasma/$version/plasma-activities-stats-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "kio-extras",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.08.3/src/kio-extras-26.08.3.tar.xz",
-                    "sha256": "5ff1e1091b162cd02c226880a6af93e6908ab32993b420fbe8fc10718e168780",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kio-extras-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "ark",
             "cleanup": [
                 "/share/icons",
